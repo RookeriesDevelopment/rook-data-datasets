@@ -1,0 +1,3824 @@
+{
+  "data_structure": "ROOKConnect_Polar_dataset",
+  "version": 2,
+  "created_at": "2023-08-21T17:30:27.445252Z",
+  "body_health": {
+    "blood_glucose_events": [],
+    "blood_pressure_events": [],
+    "body_metrics_events": [],
+    "heart_rate_events": [],
+    "hydration_events": [],
+    "mood_events": [],
+    "nutrition_events": [],
+    "oxygenation_events": [],
+    "temperature_events": [],
+    "body_summaries": [
+      {
+        "data_structure": "body_summary",
+        "version": 2,
+        "user_id_string": "644afe96a8112c3c720b89db",
+        "body_health": {
+          "summary": {
+            "body_summary": {
+              "metadata": {
+                "datetime_string": "2023-04-06T18:54:17.000",
+                "user_id_string": "644afe96a8112c3c720b89db",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "body_metrics": {
+                "waist_circumference_cm_int": 0,
+                "hip_circumference_cm_int": 0,
+                "chest_circumference_cm_int": 0,
+                "bone_composition_percentage_int": 0,
+                "muscle_composition_percentage_int": 0,
+                "water_composition_percentage_int": null,
+                "weight_kg_float": 70.0,
+                "height_cm_int": 168.0,
+                "bmi_float": 0
+              },
+              "blood_glucose": {
+                "blood_glucose_avg_mg_per_dL_int": 0,
+                "blood_glucose_granular_data_array": []
+              },
+              "blood_pressure": {
+                "blood_pressure_avg_object": {},
+                "blood_pressure_granular_data_array": []
+              },
+              "hydration": {
+                "water_total_consumption_mL_int": 0,
+                "hydration_amount_granular_data_array": [],
+                "hydration_level_granular_data_array": []
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 185,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 55,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "mood": {
+                "mood_minimum_scale_int": 0,
+                "mood_avg_scale_int": 0,
+                "mood_maximum_scale_int": 0,
+                "mood_granular_data_array": [],
+                "mood_delta_scale_int": 0
+              },
+              "nutrition": {
+                "food_intake_float": null,
+                "calories_intake_kcal_float": 0,
+                "protein_intake_g_float": 0,
+                "sugar_intake_g_float": 0,
+                "fat_intake_g_float": 0,
+                "trans_fat_intake_g_floatr": 0,
+                "carbohydrates_intake_g_float": 0,
+                "fiber_intake_g_float": 0,
+                "alcohol_intake_g_float": 0,
+                "sodium_intake_mg_float": 0,
+                "cholesterol_intake_mg_float": 0
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": 0,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": 39,
+                "vo2_granular_data_array": []
+              },
+              "temperature": {
+                "temperature_minimum_object": {
+                  "temperature_celsius_float": 0,
+                  "measurement_type_string": null
+                },
+                "temperature_avg_object": {
+                  "temperature_celsius_float": 0,
+                  "measurement_type_string": null
+                },
+                "temperature_maximum_object": {
+                  "temperature_celsius_float": 0,
+                  "measurement_type_string": null
+                },
+                "temperature_granular_data_array": [],
+                "temperature_delta_object": {}
+              },
+              "menstruation": {
+                "last_updated_datetime_string": null,
+                "period_start_date_string": null,
+                "cycle_day_int": null,
+                "predicted_cycle_length_days_int": null,
+                "cycle_length_days_int": null,
+                "current_phase_string": null,
+                "length_of_current_phase_days_int": null,
+                "days_until_next_phase_int": null,
+                "is_a_predicted_cycle_bool": null,
+                "menstruation_flow_granular_data_array": []
+              },
+              "non_structured_data_array": {
+                "id": 13933315,
+                "transaction-id": 19584880,
+                "created": "2023-04-06T18:54:17.000",
+                "polar-user": "https://www.polaraccesslink.com/v3/users/59822586",
+                "weight": 70.0,
+                "height": 168.0,
+                "maximum-heart-rate": 185,
+                "resting-heart-rate": 55,
+                "aerobic-threshold": 139,
+                "anaerobic-threshold": 167,
+                "vo2-max": 39,
+                "weight-source": "SOURCE_USER"
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "body_summary",
+        "version": 2,
+        "user_id_string": "644afe95a8112c3c720b89c8",
+        "body_health": {
+          "summary": {
+            "body_summary": {
+              "metadata": {
+                "datetime_string": "2023-04-26T01:44:41.000",
+                "user_id_string": "644afe95a8112c3c720b89c8",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "body_metrics": {
+                "waist_circumference_cm_int": 0,
+                "hip_circumference_cm_int": 0,
+                "chest_circumference_cm_int": 0,
+                "bone_composition_percentage_int": 0,
+                "muscle_composition_percentage_int": 0,
+                "water_composition_percentage_int": null,
+                "weight_kg_float": 75.0,
+                "height_cm_int": 166.0,
+                "bmi_float": 0
+              },
+              "blood_glucose": {
+                "blood_glucose_avg_mg_per_dL_int": 0,
+                "blood_glucose_granular_data_array": []
+              },
+              "blood_pressure": {
+                "blood_pressure_avg_object": {},
+                "blood_pressure_granular_data_array": []
+              },
+              "hydration": {
+                "water_total_consumption_mL_int": 0,
+                "hydration_amount_granular_data_array": [],
+                "hydration_level_granular_data_array": []
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 208,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 55,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "mood": {
+                "mood_minimum_scale_int": 0,
+                "mood_avg_scale_int": 0,
+                "mood_maximum_scale_int": 0,
+                "mood_granular_data_array": [],
+                "mood_delta_scale_int": 0
+              },
+              "nutrition": {
+                "food_intake_float": null,
+                "calories_intake_kcal_float": 0,
+                "protein_intake_g_float": 0,
+                "sugar_intake_g_float": 0,
+                "fat_intake_g_float": 0,
+                "trans_fat_intake_g_floatr": 0,
+                "carbohydrates_intake_g_float": 0,
+                "fiber_intake_g_float": 0,
+                "alcohol_intake_g_float": 0,
+                "sodium_intake_mg_float": 0,
+                "cholesterol_intake_mg_float": 0
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": 0,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": 48,
+                "vo2_granular_data_array": []
+              },
+              "temperature": {
+                "temperature_minimum_object": {
+                  "temperature_celsius_float": 0,
+                  "measurement_type_string": null
+                },
+                "temperature_avg_object": {
+                  "temperature_celsius_float": 0,
+                  "measurement_type_string": null
+                },
+                "temperature_maximum_object": {
+                  "temperature_celsius_float": 0,
+                  "measurement_type_string": null
+                },
+                "temperature_granular_data_array": [],
+                "temperature_delta_object": {}
+              },
+              "menstruation": {
+                "last_updated_datetime_string": null,
+                "period_start_date_string": null,
+                "cycle_day_int": null,
+                "predicted_cycle_length_days_int": null,
+                "cycle_length_days_int": null,
+                "current_phase_string": null,
+                "length_of_current_phase_days_int": null,
+                "days_until_next_phase_int": null,
+                "is_a_predicted_cycle_bool": null,
+                "menstruation_flow_granular_data_array": []
+              },
+              "non_structured_data_array": {
+                "id": 14119124,
+                "transaction-id": 19695471,
+                "created": "2023-04-26T01:44:41.000",
+                "polar-user": "https://www.polaraccesslink.com/v3/users/45452226",
+                "weight": 75.0,
+                "height": 166.0,
+                "maximum-heart-rate": 208,
+                "resting-heart-rate": 55,
+                "aerobic-threshold": 156,
+                "anaerobic-threshold": 187,
+                "vo2-max": 48,
+                "weight-source": "SOURCE_USER"
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "body_summary",
+        "version": 2,
+        "user_id_string": "644afe95a8112c3c720b898d",
+        "body_health": {
+          "summary": {
+            "body_summary": {
+              "metadata": {
+                "datetime_string": "2023-03-30T16:16:15.000",
+                "user_id_string": "644afe95a8112c3c720b898d",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "body_metrics": {
+                "waist_circumference_cm_int": 0,
+                "hip_circumference_cm_int": 0,
+                "chest_circumference_cm_int": 0,
+                "bone_composition_percentage_int": 0,
+                "muscle_composition_percentage_int": 0,
+                "water_composition_percentage_int": null,
+                "weight_kg_float": 77.0,
+                "height_cm_int": 166.0,
+                "bmi_float": 0
+              },
+              "blood_glucose": {
+                "blood_glucose_avg_mg_per_dL_int": 0,
+                "blood_glucose_granular_data_array": []
+              },
+              "blood_pressure": {
+                "blood_pressure_avg_object": {},
+                "blood_pressure_granular_data_array": []
+              },
+              "hydration": {
+                "water_total_consumption_mL_int": 0,
+                "hydration_amount_granular_data_array": [],
+                "hydration_level_granular_data_array": []
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 208,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 55,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "mood": {
+                "mood_minimum_scale_int": 0,
+                "mood_avg_scale_int": 0,
+                "mood_maximum_scale_int": 0,
+                "mood_granular_data_array": [],
+                "mood_delta_scale_int": 0
+              },
+              "nutrition": {
+                "food_intake_float": null,
+                "calories_intake_kcal_float": 0,
+                "protein_intake_g_float": 0,
+                "sugar_intake_g_float": 0,
+                "fat_intake_g_float": 0,
+                "trans_fat_intake_g_floatr": 0,
+                "carbohydrates_intake_g_float": 0,
+                "fiber_intake_g_float": 0,
+                "alcohol_intake_g_float": 0,
+                "sodium_intake_mg_float": 0,
+                "cholesterol_intake_mg_float": 0
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": 0,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": 47,
+                "vo2_granular_data_array": []
+              },
+              "temperature": {
+                "temperature_minimum_object": {
+                  "temperature_celsius_float": 0,
+                  "measurement_type_string": null
+                },
+                "temperature_avg_object": {
+                  "temperature_celsius_float": 0,
+                  "measurement_type_string": null
+                },
+                "temperature_maximum_object": {
+                  "temperature_celsius_float": 0,
+                  "measurement_type_string": null
+                },
+                "temperature_granular_data_array": [],
+                "temperature_delta_object": {}
+              },
+              "menstruation": {
+                "last_updated_datetime_string": null,
+                "period_start_date_string": null,
+                "cycle_day_int": null,
+                "predicted_cycle_length_days_int": null,
+                "cycle_length_days_int": null,
+                "current_phase_string": null,
+                "length_of_current_phase_days_int": null,
+                "days_until_next_phase_int": null,
+                "is_a_predicted_cycle_bool": null,
+                "menstruation_flow_granular_data_array": []
+              },
+              "non_structured_data_array": {
+                "id": 13879699,
+                "transaction-id": 19527879,
+                "created": "2023-03-30T16:16:15.000",
+                "polar-user": "https://www.polaraccesslink.com/v3/users/45452226",
+                "weight": 77.0,
+                "height": 166.0,
+                "maximum-heart-rate": 208,
+                "resting-heart-rate": 55,
+                "aerobic-threshold": 156,
+                "anaerobic-threshold": 187,
+                "vo2-max": 47,
+                "weight-source": "SOURCE_USER"
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "body_summary",
+        "version": 2,
+        "user_id_string": "644afe95a8112c3c720b89b2",
+        "body_health": {
+          "summary": {
+            "body_summary": {
+              "metadata": {
+                "datetime_string": "2023-04-06T01:02:18.000",
+                "user_id_string": "644afe95a8112c3c720b89b2",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "body_metrics": {
+                "waist_circumference_cm_int": 0,
+                "hip_circumference_cm_int": 0,
+                "chest_circumference_cm_int": 0,
+                "bone_composition_percentage_int": 0,
+                "muscle_composition_percentage_int": 0,
+                "water_composition_percentage_int": null,
+                "weight_kg_float": 70.0,
+                "height_cm_int": 168.0,
+                "bmi_float": 0
+              },
+              "blood_glucose": {
+                "blood_glucose_avg_mg_per_dL_int": 0,
+                "blood_glucose_granular_data_array": []
+              },
+              "blood_pressure": {
+                "blood_pressure_avg_object": {},
+                "blood_pressure_granular_data_array": []
+              },
+              "hydration": {
+                "water_total_consumption_mL_int": 0,
+                "hydration_amount_granular_data_array": [],
+                "hydration_level_granular_data_array": []
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 185,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 55,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "mood": {
+                "mood_minimum_scale_int": 0,
+                "mood_avg_scale_int": 0,
+                "mood_maximum_scale_int": 0,
+                "mood_granular_data_array": [],
+                "mood_delta_scale_int": 0
+              },
+              "nutrition": {
+                "food_intake_float": null,
+                "calories_intake_kcal_float": 0,
+                "protein_intake_g_float": 0,
+                "sugar_intake_g_float": 0,
+                "fat_intake_g_float": 0,
+                "trans_fat_intake_g_floatr": 0,
+                "carbohydrates_intake_g_float": 0,
+                "fiber_intake_g_float": 0,
+                "alcohol_intake_g_float": 0,
+                "sodium_intake_mg_float": 0,
+                "cholesterol_intake_mg_float": 0
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": 0,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": 39,
+                "vo2_granular_data_array": []
+              },
+              "temperature": {
+                "temperature_minimum_object": {
+                  "temperature_celsius_float": 0,
+                  "measurement_type_string": null
+                },
+                "temperature_avg_object": {
+                  "temperature_celsius_float": 0,
+                  "measurement_type_string": null
+                },
+                "temperature_maximum_object": {
+                  "temperature_celsius_float": 0,
+                  "measurement_type_string": null
+                },
+                "temperature_granular_data_array": [],
+                "temperature_delta_object": {}
+              },
+              "menstruation": {
+                "last_updated_datetime_string": null,
+                "period_start_date_string": null,
+                "cycle_day_int": null,
+                "predicted_cycle_length_days_int": null,
+                "cycle_length_days_int": null,
+                "current_phase_string": null,
+                "length_of_current_phase_days_int": null,
+                "days_until_next_phase_int": null,
+                "is_a_predicted_cycle_bool": null,
+                "menstruation_flow_granular_data_array": []
+              },
+              "non_structured_data_array": {
+                "id": 13904435,
+                "transaction-id": 19584880,
+                "created": "2023-04-06T01:02:18.000",
+                "polar-user": "https://www.polaraccesslink.com/v3/users/59822586",
+                "weight": 70.0,
+                "height": 168.0,
+                "maximum-heart-rate": 185,
+                "resting-heart-rate": 55,
+                "aerobic-threshold": 139,
+                "anaerobic-threshold": 167,
+                "vo2-max": 39,
+                "weight-source": "SOURCE_USER"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "physical_health": {
+    "activity_events": [
+      {
+        "data_structure": "activity_event",
+        "version": 2,
+        "user_id_string": "64ac278b48649320417c3da9",
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2023-07-05T21:06:34.000000",
+                  "user_id_string": "64ac278b48649320417c3da9",
+                  "sources_of_data_array": [
+                    "Polar"
+                  ],
+                  "was_the_user_under_physical_activity_bool": null
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2023-07-05T21:06:34.000000",
+                  "activity_end_datetime_string": null,
+                  "activity_duration_seconds_int": 1925.125,
+                  "activity_type_name_string": "CROSS_TRAINER",
+                  "active_seconds_int": 0,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": 0,
+                  "moderate_intensity_seconds_int": 0,
+                  "vigorous_intensity_seconds_int": 0,
+                  "inactivity_seconds_int": 0,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": 0,
+                  "activity_strain_level_float": 0,
+                  "activity_work_kilojoules_float": 0,
+                  "activity_energy_kilojoules_float": 0,
+                  "activity_energy_planned_kilojoules_float": 0
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": 0,
+                  "calories_expenditure_kcal_float": 0,
+                  "calories_net_active_kcal_float": 259,
+                  "calories_basal_metabolic_rate_kcal_float": 0,
+                  "fat_percentage_of_calories_int": 0,
+                  "carbohydrate_percentage_of_calories_int": 0,
+                  "protein_percentage_of_calories_int": 0
+                },
+                "distance": {
+                  "steps_int": 0,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 0,
+                  "traveled_distance_meters_float": 0,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": 0,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": 0,
+                  "elevation_minimum_altitude_meters_float": 0,
+                  "elevation_maximum_altitude_meters_float": 0,
+                  "elevation_loss_actual_altitude_meters_float": 0,
+                  "elevation_gain_actual_altitude_meters_float": 0,
+                  "elevation_planned_gain_meters_float": 0,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": 0,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0,
+                  "swimming_total_distance_meters_float": 0,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": 146,
+                  "hr_minimum_bpm_int": 0,
+                  "hr_avg_bpm_int": 132,
+                  "hr_resting_bpm_int": 0,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": 0,
+                  "hrv_avg_sdnn_float": 0,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": 0,
+                  "speed_avg_meters_per_second_float": 0,
+                  "speed_maximum_meters_per_second_float": 0,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": [],
+                  "velocity_maximum_object": [],
+                  "pace_avg_min_per_km_float": 0,
+                  "pace_maximum_min_per_km_float": 0,
+                  "cadence_avg_rpm_float": 0,
+                  "cadence_maximum_rpm_float": 0,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": 0,
+                  "torque_maximum_newton_meters_float": 0,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": 0,
+                  "power_maximum_watts_float": 0,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {},
+                  "position_centroid_object": {},
+                  "position_end_object": {},
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": 0,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": 0,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": 0,
+                  "stress_duration_seconds_int": 0,
+                  "low_stress_duration_seconds_int": 0,
+                  "medium_stress_duration_seconds_int": 0,
+                  "high_stress_duration_seconds_int": 0,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": 0,
+                  "stress_maximum_level_int": 0
+                },
+                "non_structured_data_array": {
+                  "upload-time": "2023-07-10T15:35:54.000Z",
+                  "id": 305400156,
+                  "polar-user": "https://www.polaraccesslink.com/v3/users/45452226",
+                  "transaction-id": 274214377,
+                  "device": "Polar M200",
+                  "device-id": "67652E2A",
+                  "start-time": "2023-07-05T21:06:34",
+                  "start-time-utc-offset": -360,
+                  "duration": "PT32M5.125S",
+                  "calories": 259,
+                  "heart-rate": {
+                    "average": 132,
+                    "maximum": 146
+                  },
+                  "training-load": 30.0,
+                  "sport": "OTHER",
+                  "has-route": false,
+                  "detailed-sport-info": "CROSS_TRAINER"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "data_structure": "activity_event",
+        "version": 2,
+        "user_id_string": "648f7766356e257ad1cc0fc1",
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2023-06-18T14:42:35.000000",
+                  "user_id_string": "648f7766356e257ad1cc0fc1",
+                  "sources_of_data_array": [
+                    "Polar"
+                  ],
+                  "was_the_user_under_physical_activity_bool": null
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2023-06-18T14:42:35.000000",
+                  "activity_end_datetime_string": null,
+                  "activity_duration_seconds_int": 1947.75,
+                  "activity_type_name_string": "FUNCTIONAL_TRAINING",
+                  "active_seconds_int": 0,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": 0,
+                  "moderate_intensity_seconds_int": 0,
+                  "vigorous_intensity_seconds_int": 0,
+                  "inactivity_seconds_int": 0,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": 0,
+                  "activity_strain_level_float": 0,
+                  "activity_work_kilojoules_float": 0,
+                  "activity_energy_kilojoules_float": 0,
+                  "activity_energy_planned_kilojoules_float": 0
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": 0,
+                  "calories_expenditure_kcal_float": 0,
+                  "calories_net_active_kcal_float": 255,
+                  "calories_basal_metabolic_rate_kcal_float": 0,
+                  "fat_percentage_of_calories_int": 0,
+                  "carbohydrate_percentage_of_calories_int": 0,
+                  "protein_percentage_of_calories_int": 0
+                },
+                "distance": {
+                  "steps_int": 0,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 0,
+                  "traveled_distance_meters_float": 0,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": 0,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": 0,
+                  "elevation_minimum_altitude_meters_float": 0,
+                  "elevation_maximum_altitude_meters_float": 0,
+                  "elevation_loss_actual_altitude_meters_float": 0,
+                  "elevation_gain_actual_altitude_meters_float": 0,
+                  "elevation_planned_gain_meters_float": 0,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": 0,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0,
+                  "swimming_total_distance_meters_float": 0,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": 164,
+                  "hr_minimum_bpm_int": 0,
+                  "hr_avg_bpm_int": 131,
+                  "hr_resting_bpm_int": 0,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": 0,
+                  "hrv_avg_sdnn_float": 0,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": 0,
+                  "speed_avg_meters_per_second_float": 0,
+                  "speed_maximum_meters_per_second_float": 0,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": [],
+                  "velocity_maximum_object": [],
+                  "pace_avg_min_per_km_float": 0,
+                  "pace_maximum_min_per_km_float": 0,
+                  "cadence_avg_rpm_float": 0,
+                  "cadence_maximum_rpm_float": 0,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": 0,
+                  "torque_maximum_newton_meters_float": 0,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": 0,
+                  "power_maximum_watts_float": 0,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {},
+                  "position_centroid_object": {},
+                  "position_end_object": {},
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": 0,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": 0,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": 0,
+                  "stress_duration_seconds_int": 0,
+                  "low_stress_duration_seconds_int": 0,
+                  "medium_stress_duration_seconds_int": 0,
+                  "high_stress_duration_seconds_int": 0,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": 0,
+                  "stress_maximum_level_int": 0
+                },
+                "non_structured_data_array": {
+                  "upload-time": "2023-06-18T21:17:09.000Z",
+                  "id": 301748892,
+                  "polar-user": "https://www.polaraccesslink.com/v3/users/45452226",
+                  "transaction-id": 273000227,
+                  "device": "Polar M200",
+                  "device-id": "67652E2A",
+                  "start-time": "2023-06-18T14:42:35",
+                  "start-time-utc-offset": -360,
+                  "duration": "PT32M27.750S",
+                  "calories": 255,
+                  "distance": 321.0,
+                  "heart-rate": {
+                    "average": 131,
+                    "maximum": 164
+                  },
+                  "training-load": 30.0,
+                  "sport": "OTHER",
+                  "has-route": true,
+                  "detailed-sport-info": "FUNCTIONAL_TRAINING"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "data_structure": "activity_event",
+        "version": 2,
+        "user_id_string": "64832cea59d55d55f28b9c73",
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2023-06-09T07:03:07.000000",
+                  "user_id_string": "64832cea59d55d55f28b9c73",
+                  "sources_of_data_array": [
+                    "Polar"
+                  ],
+                  "was_the_user_under_physical_activity_bool": null
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2023-06-09T07:03:07.000000",
+                  "activity_end_datetime_string": null,
+                  "activity_duration_seconds_int": 1649.625,
+                  "activity_type_name_string": "CROSS_TRAINER",
+                  "active_seconds_int": 0,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": 0,
+                  "moderate_intensity_seconds_int": 0,
+                  "vigorous_intensity_seconds_int": 0,
+                  "inactivity_seconds_int": 0,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": 0,
+                  "activity_strain_level_float": 0,
+                  "activity_work_kilojoules_float": 0,
+                  "activity_energy_kilojoules_float": 0,
+                  "activity_energy_planned_kilojoules_float": 0
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": 0,
+                  "calories_expenditure_kcal_float": 0,
+                  "calories_net_active_kcal_float": 226,
+                  "calories_basal_metabolic_rate_kcal_float": 0,
+                  "fat_percentage_of_calories_int": 0,
+                  "carbohydrate_percentage_of_calories_int": 0,
+                  "protein_percentage_of_calories_int": 0
+                },
+                "distance": {
+                  "steps_int": 0,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 0,
+                  "traveled_distance_meters_float": 0,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": 0,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": 0,
+                  "elevation_minimum_altitude_meters_float": 0,
+                  "elevation_maximum_altitude_meters_float": 0,
+                  "elevation_loss_actual_altitude_meters_float": 0,
+                  "elevation_gain_actual_altitude_meters_float": 0,
+                  "elevation_planned_gain_meters_float": 0,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": 0,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0,
+                  "swimming_total_distance_meters_float": 0,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": 149,
+                  "hr_minimum_bpm_int": 0,
+                  "hr_avg_bpm_int": 133,
+                  "hr_resting_bpm_int": 0,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": 0,
+                  "hrv_avg_sdnn_float": 0,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": 0,
+                  "speed_avg_meters_per_second_float": 0,
+                  "speed_maximum_meters_per_second_float": 0,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": [],
+                  "velocity_maximum_object": [],
+                  "pace_avg_min_per_km_float": 0,
+                  "pace_maximum_min_per_km_float": 0,
+                  "cadence_avg_rpm_float": 0,
+                  "cadence_maximum_rpm_float": 0,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": 0,
+                  "torque_maximum_newton_meters_float": 0,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": 0,
+                  "power_maximum_watts_float": 0,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {},
+                  "position_centroid_object": {},
+                  "position_end_object": {},
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": 0,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": 0,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": 0,
+                  "stress_duration_seconds_int": 0,
+                  "low_stress_duration_seconds_int": 0,
+                  "medium_stress_duration_seconds_int": 0,
+                  "high_stress_duration_seconds_int": 0,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": 0,
+                  "stress_maximum_level_int": 0
+                },
+                "non_structured_data_array": {
+                  "upload-time": "2023-06-09T13:31:36.000Z",
+                  "id": 300132155,
+                  "polar-user": "https://www.polaraccesslink.com/v3/users/45452226",
+                  "transaction-id": 272463470,
+                  "device": "Polar M200",
+                  "device-id": "67652E2A",
+                  "start-time": "2023-06-09T07:03:07",
+                  "start-time-utc-offset": -360,
+                  "duration": "PT27M29.625S",
+                  "calories": 226,
+                  "heart-rate": {
+                    "average": 133,
+                    "maximum": 149
+                  },
+                  "training-load": 27.0,
+                  "sport": "OTHER",
+                  "has-route": false,
+                  "detailed-sport-info": "CROSS_TRAINER"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "data_structure": "activity_event",
+        "version": 2,
+        "user_id_string": "648384ce59d55d55f20e8e2b",
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2023-06-09T12:59:57.000000",
+                  "user_id_string": "648384ce59d55d55f20e8e2b",
+                  "sources_of_data_array": [
+                    "Polar"
+                  ],
+                  "was_the_user_under_physical_activity_bool": null
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2023-06-09T12:59:57.000000",
+                  "activity_end_datetime_string": null,
+                  "activity_duration_seconds_int": 3284.876,
+                  "activity_type_name_string": "HIIT",
+                  "active_seconds_int": 0,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": 0,
+                  "moderate_intensity_seconds_int": 0,
+                  "vigorous_intensity_seconds_int": 0,
+                  "inactivity_seconds_int": 0,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": 0,
+                  "activity_strain_level_float": 0,
+                  "activity_work_kilojoules_float": 0,
+                  "activity_energy_kilojoules_float": 0,
+                  "activity_energy_planned_kilojoules_float": 0
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": 0,
+                  "calories_expenditure_kcal_float": 0,
+                  "calories_net_active_kcal_float": 101,
+                  "calories_basal_metabolic_rate_kcal_float": 0,
+                  "fat_percentage_of_calories_int": 0,
+                  "carbohydrate_percentage_of_calories_int": 0,
+                  "protein_percentage_of_calories_int": 0
+                },
+                "distance": {
+                  "steps_int": 0,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 0,
+                  "traveled_distance_meters_float": 0,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": 0,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": 0,
+                  "elevation_minimum_altitude_meters_float": 0,
+                  "elevation_maximum_altitude_meters_float": 0,
+                  "elevation_loss_actual_altitude_meters_float": 0,
+                  "elevation_gain_actual_altitude_meters_float": 0,
+                  "elevation_planned_gain_meters_float": 0,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": 0,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0,
+                  "swimming_total_distance_meters_float": 0,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": 122,
+                  "hr_minimum_bpm_int": 0,
+                  "hr_avg_bpm_int": 74,
+                  "hr_resting_bpm_int": 0,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": 0,
+                  "hrv_avg_sdnn_float": 0,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": 0,
+                  "speed_avg_meters_per_second_float": 0,
+                  "speed_maximum_meters_per_second_float": 0,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": [],
+                  "velocity_maximum_object": [],
+                  "pace_avg_min_per_km_float": 0,
+                  "pace_maximum_min_per_km_float": 0,
+                  "cadence_avg_rpm_float": 0,
+                  "cadence_maximum_rpm_float": 0,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": 0,
+                  "torque_maximum_newton_meters_float": 0,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": 0,
+                  "power_maximum_watts_float": 0,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {},
+                  "position_centroid_object": {},
+                  "position_end_object": {},
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": 0,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": 0,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": 0,
+                  "stress_duration_seconds_int": 0,
+                  "low_stress_duration_seconds_int": 0,
+                  "medium_stress_duration_seconds_int": 0,
+                  "high_stress_duration_seconds_int": 0,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": 0,
+                  "stress_maximum_level_int": 0
+                },
+                "non_structured_data_array": {
+                  "upload-time": "2023-06-09T19:55:35.000Z",
+                  "id": 300190474,
+                  "polar-user": "https://www.polaraccesslink.com/v3/users/59822586",
+                  "transaction-id": 272481905,
+                  "device": "Polar Vantage M",
+                  "device-id": "A805282F",
+                  "start-time": "2023-06-09T12:59:57",
+                  "start-time-utc-offset": -360,
+                  "duration": "PT54M44.876S",
+                  "calories": 101,
+                  "heart-rate": {
+                    "average": 74,
+                    "maximum": 122
+                  },
+                  "training-load": 0.0,
+                  "sport": "OTHER",
+                  "has-route": false,
+                  "detailed-sport-info": "HIIT",
+                  "training-load-pro": {
+                    "cardio-load": 9.56722,
+                    "cardio-load-interpretation": "VERY_LOW",
+                    "muscle-load": -1.0,
+                    "muscle-load-interpretation": "NOT_AVAILABLE",
+                    "perceived-load": 0.0,
+                    "perceived-load-interpretation": "NOT_AVAILABLE",
+                    "user-rpe": "UNKNOWN"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "data_structure": "activity_event",
+        "version": 2,
+        "user_id_string": "64ac278a48649320417c3d2d",
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2023-07-07T13:18:38.000000",
+                  "user_id_string": "64ac278a48649320417c3d2d",
+                  "sources_of_data_array": [
+                    "Polar"
+                  ],
+                  "was_the_user_under_physical_activity_bool": null
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2023-07-07T13:18:38.000000",
+                  "activity_end_datetime_string": null,
+                  "activity_duration_seconds_int": 2711.875,
+                  "activity_type_name_string": "CROSS_TRAINER",
+                  "active_seconds_int": 0,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": 0,
+                  "moderate_intensity_seconds_int": 0,
+                  "vigorous_intensity_seconds_int": 0,
+                  "inactivity_seconds_int": 0,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": 0,
+                  "activity_strain_level_float": 0,
+                  "activity_work_kilojoules_float": 0,
+                  "activity_energy_kilojoules_float": 0,
+                  "activity_energy_planned_kilojoules_float": 0
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": 0,
+                  "calories_expenditure_kcal_float": 0,
+                  "calories_net_active_kcal_float": 426,
+                  "calories_basal_metabolic_rate_kcal_float": 0,
+                  "fat_percentage_of_calories_int": 0,
+                  "carbohydrate_percentage_of_calories_int": 0,
+                  "protein_percentage_of_calories_int": 0
+                },
+                "distance": {
+                  "steps_int": 0,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 0,
+                  "traveled_distance_meters_float": 0,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": 0,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": 0,
+                  "elevation_minimum_altitude_meters_float": 0,
+                  "elevation_maximum_altitude_meters_float": 0,
+                  "elevation_loss_actual_altitude_meters_float": 0,
+                  "elevation_gain_actual_altitude_meters_float": 0,
+                  "elevation_planned_gain_meters_float": 0,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": 0,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0,
+                  "swimming_total_distance_meters_float": 0,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": 160,
+                  "hr_minimum_bpm_int": 0,
+                  "hr_avg_bpm_int": 143,
+                  "hr_resting_bpm_int": 0,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": 0,
+                  "hrv_avg_sdnn_float": 0,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": 0,
+                  "speed_avg_meters_per_second_float": 0,
+                  "speed_maximum_meters_per_second_float": 0,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": [],
+                  "velocity_maximum_object": [],
+                  "pace_avg_min_per_km_float": 0,
+                  "pace_maximum_min_per_km_float": 0,
+                  "cadence_avg_rpm_float": 0,
+                  "cadence_maximum_rpm_float": 0,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": 0,
+                  "torque_maximum_newton_meters_float": 0,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": 0,
+                  "power_maximum_watts_float": 0,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {},
+                  "position_centroid_object": {},
+                  "position_end_object": {},
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": 0,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": 0,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": 0,
+                  "stress_duration_seconds_int": 0,
+                  "low_stress_duration_seconds_int": 0,
+                  "medium_stress_duration_seconds_int": 0,
+                  "high_stress_duration_seconds_int": 0,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": 0,
+                  "stress_maximum_level_int": 0
+                },
+                "non_structured_data_array": {
+                  "upload-time": "2023-07-10T15:35:43.000Z",
+                  "id": 305400123,
+                  "polar-user": "https://www.polaraccesslink.com/v3/users/45452226",
+                  "transaction-id": 274214377,
+                  "device": "Polar M200",
+                  "device-id": "67652E2A",
+                  "start-time": "2023-07-07T13:18:38",
+                  "start-time-utc-offset": -360,
+                  "duration": "PT45M11.875S",
+                  "calories": 426,
+                  "heart-rate": {
+                    "average": 143,
+                    "maximum": 160
+                  },
+                  "training-load": 61.0,
+                  "sport": "OTHER",
+                  "has-route": false,
+                  "detailed-sport-info": "CROSS_TRAINER"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "data_structure": "activity_event",
+        "version": 2,
+        "user_id_string": "6464e189211e454e6af8c455",
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2023-05-17T06:54:25.000000",
+                  "user_id_string": "6464e189211e454e6af8c455",
+                  "sources_of_data_array": [
+                    "Polar"
+                  ],
+                  "was_the_user_under_physical_activity_bool": null
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2023-05-17T06:54:25.000000",
+                  "activity_end_datetime_string": null,
+                  "activity_duration_seconds_int": 4155.125,
+                  "activity_type_name_string": "RUNNING",
+                  "active_seconds_int": 0,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": 0,
+                  "moderate_intensity_seconds_int": 0,
+                  "vigorous_intensity_seconds_int": 0,
+                  "inactivity_seconds_int": 0,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": 0,
+                  "activity_strain_level_float": 0,
+                  "activity_work_kilojoules_float": 0,
+                  "activity_energy_kilojoules_float": 0,
+                  "activity_energy_planned_kilojoules_float": 0
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": 0,
+                  "calories_expenditure_kcal_float": 0,
+                  "calories_net_active_kcal_float": 697,
+                  "calories_basal_metabolic_rate_kcal_float": 0,
+                  "fat_percentage_of_calories_int": 0,
+                  "carbohydrate_percentage_of_calories_int": 0,
+                  "protein_percentage_of_calories_int": 0
+                },
+                "distance": {
+                  "steps_int": 0,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 0,
+                  "traveled_distance_meters_float": 0,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": 0,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": 0,
+                  "elevation_minimum_altitude_meters_float": 0,
+                  "elevation_maximum_altitude_meters_float": 0,
+                  "elevation_loss_actual_altitude_meters_float": 0,
+                  "elevation_gain_actual_altitude_meters_float": 0,
+                  "elevation_planned_gain_meters_float": 0,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": 0,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0,
+                  "swimming_total_distance_meters_float": 0,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": 179,
+                  "hr_minimum_bpm_int": 0,
+                  "hr_avg_bpm_int": 149,
+                  "hr_resting_bpm_int": 0,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": 0,
+                  "hrv_avg_sdnn_float": 0,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": 0,
+                  "speed_avg_meters_per_second_float": 0,
+                  "speed_maximum_meters_per_second_float": 0,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": [],
+                  "velocity_maximum_object": [],
+                  "pace_avg_min_per_km_float": 0,
+                  "pace_maximum_min_per_km_float": 0,
+                  "cadence_avg_rpm_float": 0,
+                  "cadence_maximum_rpm_float": 0,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": 0,
+                  "torque_maximum_newton_meters_float": 0,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": 0,
+                  "power_maximum_watts_float": 0,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {},
+                  "position_centroid_object": {},
+                  "position_end_object": {},
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": 0,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": 0,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": 0,
+                  "stress_duration_seconds_int": 0,
+                  "low_stress_duration_seconds_int": 0,
+                  "medium_stress_duration_seconds_int": 0,
+                  "high_stress_duration_seconds_int": 0,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": 0,
+                  "stress_maximum_level_int": 0
+                },
+                "non_structured_data_array": {
+                  "upload-time": "2023-05-17T14:05:05.000Z",
+                  "id": 296136687,
+                  "polar-user": "https://www.polaraccesslink.com/v3/users/45452226",
+                  "transaction-id": 271095331,
+                  "device": "Polar M200",
+                  "device-id": "67652E2A",
+                  "start-time": "2023-05-17T06:54:25",
+                  "start-time-utc-offset": -360,
+                  "duration": "PT1H9M15.125S",
+                  "calories": 697,
+                  "distance": 10668.0,
+                  "heart-rate": {
+                    "average": 149,
+                    "maximum": 179
+                  },
+                  "training-load": 114.0,
+                  "sport": "RUNNING",
+                  "has-route": true,
+                  "detailed-sport-info": "RUNNING",
+                  "running-index": 58
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "data_structure": "activity_event",
+        "version": 2,
+        "user_id_string": "6480866759d55d55f297d79e",
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2023-06-07T06:04:19.000000",
+                  "user_id_string": "6480866759d55d55f297d79e",
+                  "sources_of_data_array": [
+                    "Polar"
+                  ],
+                  "was_the_user_under_physical_activity_bool": null
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2023-06-07T06:04:19.000000",
+                  "activity_end_datetime_string": null,
+                  "activity_duration_seconds_int": 1035.625,
+                  "activity_type_name_string": "CROSS_TRAINER",
+                  "active_seconds_int": 0,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": 0,
+                  "moderate_intensity_seconds_int": 0,
+                  "vigorous_intensity_seconds_int": 0,
+                  "inactivity_seconds_int": 0,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": 0,
+                  "activity_strain_level_float": 0,
+                  "activity_work_kilojoules_float": 0,
+                  "activity_energy_kilojoules_float": 0,
+                  "activity_energy_planned_kilojoules_float": 0
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": 0,
+                  "calories_expenditure_kcal_float": 0,
+                  "calories_net_active_kcal_float": 155,
+                  "calories_basal_metabolic_rate_kcal_float": 0,
+                  "fat_percentage_of_calories_int": 0,
+                  "carbohydrate_percentage_of_calories_int": 0,
+                  "protein_percentage_of_calories_int": 0
+                },
+                "distance": {
+                  "steps_int": 0,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 0,
+                  "traveled_distance_meters_float": 0,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": 0,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": 0,
+                  "elevation_minimum_altitude_meters_float": 0,
+                  "elevation_maximum_altitude_meters_float": 0,
+                  "elevation_loss_actual_altitude_meters_float": 0,
+                  "elevation_gain_actual_altitude_meters_float": 0,
+                  "elevation_planned_gain_meters_float": 0,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": 0,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0,
+                  "swimming_total_distance_meters_float": 0,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": 148,
+                  "hr_minimum_bpm_int": 0,
+                  "hr_avg_bpm_int": 139,
+                  "hr_resting_bpm_int": 0,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": 0,
+                  "hrv_avg_sdnn_float": 0,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": 0,
+                  "speed_avg_meters_per_second_float": 0,
+                  "speed_maximum_meters_per_second_float": 0,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": [],
+                  "velocity_maximum_object": [],
+                  "pace_avg_min_per_km_float": 0,
+                  "pace_maximum_min_per_km_float": 0,
+                  "cadence_avg_rpm_float": 0,
+                  "cadence_maximum_rpm_float": 0,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": 0,
+                  "torque_maximum_newton_meters_float": 0,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": 0,
+                  "power_maximum_watts_float": 0,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {},
+                  "position_centroid_object": {},
+                  "position_end_object": {},
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": 0,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": 0,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": 0,
+                  "stress_duration_seconds_int": 0,
+                  "low_stress_duration_seconds_int": 0,
+                  "medium_stress_duration_seconds_int": 0,
+                  "high_stress_duration_seconds_int": 0,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": 0,
+                  "stress_maximum_level_int": 0
+                },
+                "non_structured_data_array": {
+                  "upload-time": "2023-06-07T13:27:56.000Z",
+                  "id": 299789614,
+                  "polar-user": "https://www.polaraccesslink.com/v3/users/45452226",
+                  "transaction-id": 272348874,
+                  "device": "Polar M200",
+                  "device-id": "67652E2A",
+                  "start-time": "2023-06-07T06:04:19",
+                  "start-time-utc-offset": -360,
+                  "duration": "PT17M15.625S",
+                  "calories": 155,
+                  "heart-rate": {
+                    "average": 139,
+                    "maximum": 148
+                  },
+                  "training-load": 21.0,
+                  "sport": "OTHER",
+                  "has-route": false,
+                  "detailed-sport-info": "CROSS_TRAINER"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "data_structure": "activity_event",
+        "version": 2,
+        "user_id_string": "64b212c6a849b247bf862544",
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2023-07-14T20:55:46.000000",
+                  "user_id_string": "64b212c6a849b247bf862544",
+                  "sources_of_data_array": [
+                    "Polar"
+                  ],
+                  "was_the_user_under_physical_activity_bool": null
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2023-07-14T20:55:46.000000",
+                  "activity_end_datetime_string": null,
+                  "activity_duration_seconds_int": 1224.125,
+                  "activity_type_name_string": "CROSS_TRAINER",
+                  "active_seconds_int": 0,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": 0,
+                  "moderate_intensity_seconds_int": 0,
+                  "vigorous_intensity_seconds_int": 0,
+                  "inactivity_seconds_int": 0,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": 0,
+                  "activity_strain_level_float": 0,
+                  "activity_work_kilojoules_float": 0,
+                  "activity_energy_kilojoules_float": 0,
+                  "activity_energy_planned_kilojoules_float": 0
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": 0,
+                  "calories_expenditure_kcal_float": 0,
+                  "calories_net_active_kcal_float": 195,
+                  "calories_basal_metabolic_rate_kcal_float": 0,
+                  "fat_percentage_of_calories_int": 0,
+                  "carbohydrate_percentage_of_calories_int": 0,
+                  "protein_percentage_of_calories_int": 0
+                },
+                "distance": {
+                  "steps_int": 0,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 0,
+                  "traveled_distance_meters_float": 0,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": 0,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": 0,
+                  "elevation_minimum_altitude_meters_float": 0,
+                  "elevation_maximum_altitude_meters_float": 0,
+                  "elevation_loss_actual_altitude_meters_float": 0,
+                  "elevation_gain_actual_altitude_meters_float": 0,
+                  "elevation_planned_gain_meters_float": 0,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": 0,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0,
+                  "swimming_total_distance_meters_float": 0,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": 157,
+                  "hr_minimum_bpm_int": 0,
+                  "hr_avg_bpm_int": 144,
+                  "hr_resting_bpm_int": 0,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": 0,
+                  "hrv_avg_sdnn_float": 0,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": 0,
+                  "speed_avg_meters_per_second_float": 0,
+                  "speed_maximum_meters_per_second_float": 0,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": [],
+                  "velocity_maximum_object": [],
+                  "pace_avg_min_per_km_float": 0,
+                  "pace_maximum_min_per_km_float": 0,
+                  "cadence_avg_rpm_float": 0,
+                  "cadence_maximum_rpm_float": 0,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": 0,
+                  "torque_maximum_newton_meters_float": 0,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": 0,
+                  "power_maximum_watts_float": 0,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {},
+                  "position_centroid_object": {},
+                  "position_end_object": {},
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": 0,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": 0,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": 0,
+                  "stress_duration_seconds_int": 0,
+                  "low_stress_duration_seconds_int": 0,
+                  "medium_stress_duration_seconds_int": 0,
+                  "high_stress_duration_seconds_int": 0,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": 0,
+                  "stress_maximum_level_int": 0
+                },
+                "non_structured_data_array": {
+                  "upload-time": "2023-07-15T03:17:35.000Z",
+                  "id": 306181653,
+                  "polar-user": "https://www.polaraccesslink.com/v3/users/45452226",
+                  "transaction-id": 274469603,
+                  "device": "Polar M200",
+                  "device-id": "67652E2A",
+                  "start-time": "2023-07-14T20:55:46",
+                  "start-time-utc-offset": -360,
+                  "duration": "PT20M24.125S",
+                  "calories": 195,
+                  "heart-rate": {
+                    "average": 144,
+                    "maximum": 157
+                  },
+                  "training-load": 28.0,
+                  "sport": "OTHER",
+                  "has-route": false,
+                  "detailed-sport-info": "CROSS_TRAINER"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "data_structure": "activity_event",
+        "version": 2,
+        "user_id_string": "644f19c2a8112c3c72f92d63",
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2023-04-30T12:12:14.000000",
+                  "user_id_string": "644f19c2a8112c3c72f92d63",
+                  "sources_of_data_array": [
+                    "Polar"
+                  ],
+                  "was_the_user_under_physical_activity_bool": null
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2023-04-30T12:12:14.000000",
+                  "activity_end_datetime_string": null,
+                  "activity_duration_seconds_int": 2598.25,
+                  "activity_type_name_string": "CROSS_TRAINER",
+                  "active_seconds_int": 0,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": 0,
+                  "moderate_intensity_seconds_int": 0,
+                  "vigorous_intensity_seconds_int": 0,
+                  "inactivity_seconds_int": 0,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": 0,
+                  "activity_strain_level_float": 0,
+                  "activity_work_kilojoules_float": 0,
+                  "activity_energy_kilojoules_float": 0,
+                  "activity_energy_planned_kilojoules_float": 0
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": 0,
+                  "calories_expenditure_kcal_float": 0,
+                  "calories_net_active_kcal_float": 393,
+                  "calories_basal_metabolic_rate_kcal_float": 0,
+                  "fat_percentage_of_calories_int": 0,
+                  "carbohydrate_percentage_of_calories_int": 0,
+                  "protein_percentage_of_calories_int": 0
+                },
+                "distance": {
+                  "steps_int": 0,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 0,
+                  "traveled_distance_meters_float": 0,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": 0,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": 0,
+                  "elevation_minimum_altitude_meters_float": 0,
+                  "elevation_maximum_altitude_meters_float": 0,
+                  "elevation_loss_actual_altitude_meters_float": 0,
+                  "elevation_gain_actual_altitude_meters_float": 0,
+                  "elevation_planned_gain_meters_float": 0,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": 0,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0,
+                  "swimming_total_distance_meters_float": 0,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": 167,
+                  "hr_minimum_bpm_int": 0,
+                  "hr_avg_bpm_int": 140,
+                  "hr_resting_bpm_int": 0,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": 0,
+                  "hrv_avg_sdnn_float": 0,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": 0,
+                  "speed_avg_meters_per_second_float": 0,
+                  "speed_maximum_meters_per_second_float": 0,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": [],
+                  "velocity_maximum_object": [],
+                  "pace_avg_min_per_km_float": 0,
+                  "pace_maximum_min_per_km_float": 0,
+                  "cadence_avg_rpm_float": 0,
+                  "cadence_maximum_rpm_float": 0,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": 0,
+                  "torque_maximum_newton_meters_float": 0,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": 0,
+                  "power_maximum_watts_float": 0,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {},
+                  "position_centroid_object": {},
+                  "position_end_object": {},
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": 0,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": 0,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": 0,
+                  "stress_duration_seconds_int": 0,
+                  "low_stress_duration_seconds_int": 0,
+                  "medium_stress_duration_seconds_int": 0,
+                  "high_stress_duration_seconds_int": 0,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": 0,
+                  "stress_maximum_level_int": 0
+                },
+                "non_structured_data_array": {
+                  "upload-time": "2023-05-01T01:33:17.000Z",
+                  "id": 293240056,
+                  "polar-user": "https://www.polaraccesslink.com/v3/users/45452226",
+                  "transaction-id": 270105313,
+                  "device": "Polar M200",
+                  "device-id": "67652E2A",
+                  "start-time": "2023-04-30T12:12:14",
+                  "start-time-utc-offset": -360,
+                  "duration": "PT43M18.250S",
+                  "calories": 393,
+                  "heart-rate": {
+                    "average": 140,
+                    "maximum": 167
+                  },
+                  "training-load": 56.0,
+                  "sport": "OTHER",
+                  "has-route": false,
+                  "detailed-sport-info": "CROSS_TRAINER"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "data_structure": "activity_event",
+        "version": 2,
+        "user_id_string": "6447d6015bbf610fab13d05a",
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2023-04-25T06:21:00.000000",
+                  "user_id_string": "6447d6015bbf610fab13d05a",
+                  "sources_of_data_array": [
+                    "Polar"
+                  ],
+                  "was_the_user_under_physical_activity_bool": null
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2023-04-25T06:21:00.000000",
+                  "activity_end_datetime_string": null,
+                  "activity_duration_seconds_int": 2902.875,
+                  "activity_type_name_string": "RUNNING",
+                  "active_seconds_int": 0,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": 0,
+                  "moderate_intensity_seconds_int": 0,
+                  "vigorous_intensity_seconds_int": 0,
+                  "inactivity_seconds_int": 0,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": 0,
+                  "activity_strain_level_float": 0,
+                  "activity_work_kilojoules_float": 0,
+                  "activity_energy_kilojoules_float": 0,
+                  "activity_energy_planned_kilojoules_float": 0
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": 0,
+                  "calories_expenditure_kcal_float": 0,
+                  "calories_net_active_kcal_float": 426,
+                  "calories_basal_metabolic_rate_kcal_float": 0,
+                  "fat_percentage_of_calories_int": 0,
+                  "carbohydrate_percentage_of_calories_int": 0,
+                  "protein_percentage_of_calories_int": 0
+                },
+                "distance": {
+                  "steps_int": 0,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 0,
+                  "traveled_distance_meters_float": 0,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": 0,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": 0,
+                  "elevation_minimum_altitude_meters_float": 0,
+                  "elevation_maximum_altitude_meters_float": 0,
+                  "elevation_loss_actual_altitude_meters_float": 0,
+                  "elevation_gain_actual_altitude_meters_float": 0,
+                  "elevation_planned_gain_meters_float": 0,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": 0,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0,
+                  "swimming_total_distance_meters_float": 0,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": 157,
+                  "hr_minimum_bpm_int": 0,
+                  "hr_avg_bpm_int": 139,
+                  "hr_resting_bpm_int": 0,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": 0,
+                  "hrv_avg_sdnn_float": 0,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": 0,
+                  "speed_avg_meters_per_second_float": 0,
+                  "speed_maximum_meters_per_second_float": 0,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": [],
+                  "velocity_maximum_object": [],
+                  "pace_avg_min_per_km_float": 0,
+                  "pace_maximum_min_per_km_float": 0,
+                  "cadence_avg_rpm_float": 0,
+                  "cadence_maximum_rpm_float": 0,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": 0,
+                  "torque_maximum_newton_meters_float": 0,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": 0,
+                  "power_maximum_watts_float": 0,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {},
+                  "position_centroid_object": {},
+                  "position_end_object": {},
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": 0,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": 0,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": 0,
+                  "stress_duration_seconds_int": 0,
+                  "low_stress_duration_seconds_int": 0,
+                  "medium_stress_duration_seconds_int": 0,
+                  "high_stress_duration_seconds_int": 0,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": 0,
+                  "stress_maximum_level_int": 0
+                },
+                "non_structured_data_array": {
+                  "upload-time": "2023-04-25T13:23:02.000Z",
+                  "id": 292309011,
+                  "polar-user": "https://www.polaraccesslink.com/v3/users/45452226",
+                  "transaction-id": 269799580,
+                  "device": "Polar M200",
+                  "device-id": "67652E2A",
+                  "start-time": "2023-04-25T06:21:00",
+                  "start-time-utc-offset": -360,
+                  "duration": "PT48M22.875S",
+                  "calories": 426,
+                  "distance": 7330.0,
+                  "heart-rate": {
+                    "average": 139,
+                    "maximum": 157
+                  },
+                  "training-load": 59.0,
+                  "sport": "RUNNING",
+                  "has-route": true,
+                  "detailed-sport-info": "RUNNING",
+                  "running-index": 61
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "heart_rate_events": [],
+    "oxygenation_events": [],
+    "stress_events": [],
+    "physical_summaries": [
+      {
+        "data_structure": "physical_summary",
+        "version": 2,
+        "user_id_string": "64a47dd2356e257ad1faa91e",
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "metadata": {
+                "datetime_string": "2023-07-04T20:09:26.000",
+                "user_id_string": "64a47dd2356e257ad1faa91e",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "distance": {
+                "steps_int": 980,
+                "steps_granular_data_array": [],
+                "active_steps_int": 0,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 0,
+                "traveled_distance_meters_float": 0,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": 0,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": 0,
+                "elevation_minimum_altitude_meters_float": 0,
+                "elevation_maximum_altitude_meters_float": 0,
+                "elevation_loss_actual_altitude_meters_float": 0,
+                "elevation_gain_actual_altitude_meters_float": 0,
+                "elevation_planned_gain_meters_float": 0,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": 0,
+                "swimming_num_laps_int": 0,
+                "swimming_pool_length_meters_float": 0,
+                "swimming_total_distance_meters_float": 0,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": 0,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": 0,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 6030.0,
+                "rest_seconds_int": 0,
+                "low_intensity_seconds_int": 0,
+                "moderate_intensity_seconds_int": 0,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": 0,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": 0
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": 0,
+                "calories_expenditure_kcal_float": 1026,
+                "calories_net_active_kcal_float": 195,
+                "calories_basal_metabolic_rate_kcal_float": 0
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 0,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": 0,
+                "stress_duration_seconds_int": 0,
+                "low_stress_duration_seconds_int": 0,
+                "medium_stress_duration_seconds_int": 0,
+                "high_stress_duration_seconds_int": 0,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": 0,
+                "stress_maximum_level_int": 0
+              },
+              "non_structured_data_array": {
+                "id": 2113864369,
+                "polar-user": "https://www.polaraccesslink.com/v3/users/59822586",
+                "transaction-id": 906421029,
+                "date": "2023-07-04",
+                "created": "2023-07-04T20:09:26.000",
+                "calories": 1026,
+                "active-calories": 195,
+                "duration": "PT1H40M30S",
+                "active-steps": 980
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "physical_summary",
+        "version": 2,
+        "user_id_string": "64986b96356e257ad123f014",
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "metadata": {
+                "datetime_string": "2023-06-25T16:23:25.000",
+                "user_id_string": "64986b96356e257ad123f014",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "distance": {
+                "steps_int": 402,
+                "steps_granular_data_array": [],
+                "active_steps_int": 0,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 0,
+                "traveled_distance_meters_float": 0,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": 0,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": 0,
+                "elevation_minimum_altitude_meters_float": 0,
+                "elevation_maximum_altitude_meters_float": 0,
+                "elevation_loss_actual_altitude_meters_float": 0,
+                "elevation_gain_actual_altitude_meters_float": 0,
+                "elevation_planned_gain_meters_float": 0,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": 0,
+                "swimming_num_laps_int": 0,
+                "swimming_pool_length_meters_float": 0,
+                "swimming_total_distance_meters_float": 0,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": 0,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": 0,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 2730.0,
+                "rest_seconds_int": 0,
+                "low_intensity_seconds_int": 0,
+                "moderate_intensity_seconds_int": 0,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": 0,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": 0
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": 0,
+                "calories_expenditure_kcal_float": 705,
+                "calories_net_active_kcal_float": 94,
+                "calories_basal_metabolic_rate_kcal_float": 0
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 0,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": 0,
+                "stress_duration_seconds_int": 0,
+                "low_stress_duration_seconds_int": 0,
+                "medium_stress_duration_seconds_int": 0,
+                "high_stress_duration_seconds_int": 0,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": 0,
+                "stress_maximum_level_int": 0
+              },
+              "non_structured_data_array": {
+                "id": 2100007682,
+                "polar-user": "https://www.polaraccesslink.com/v3/users/59822586",
+                "transaction-id": 900788833,
+                "date": "2023-06-25",
+                "created": "2023-06-25T16:23:25.000",
+                "calories": 705,
+                "active-calories": 94,
+                "duration": "PT45M30S",
+                "active-steps": 402
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "physical_summary",
+        "version": 2,
+        "user_id_string": "645f8d7a211e454e6a2226a1",
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "metadata": {
+                "datetime_string": "2023-05-13T13:03:23.000",
+                "user_id_string": "645f8d7a211e454e6a2226a1",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "distance": {
+                "steps_int": 0,
+                "steps_granular_data_array": [],
+                "active_steps_int": 0,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 0,
+                "traveled_distance_meters_float": 0,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": 0,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": 0,
+                "elevation_minimum_altitude_meters_float": 0,
+                "elevation_maximum_altitude_meters_float": 0,
+                "elevation_loss_actual_altitude_meters_float": 0,
+                "elevation_gain_actual_altitude_meters_float": 0,
+                "elevation_planned_gain_meters_float": 0,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": 0,
+                "swimming_num_laps_int": 0,
+                "swimming_pool_length_meters_float": 0,
+                "swimming_total_distance_meters_float": 0,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": 0,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": 0,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 0.0,
+                "rest_seconds_int": 0,
+                "low_intensity_seconds_int": 0,
+                "moderate_intensity_seconds_int": 0,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": 0,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": 0
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": 0,
+                "calories_expenditure_kcal_float": 397,
+                "calories_net_active_kcal_float": 0,
+                "calories_basal_metabolic_rate_kcal_float": 0
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 0,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": 0,
+                "stress_duration_seconds_int": 0,
+                "low_stress_duration_seconds_int": 0,
+                "medium_stress_duration_seconds_int": 0,
+                "high_stress_duration_seconds_int": 0,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": 0,
+                "stress_maximum_level_int": 0
+              },
+              "non_structured_data_array": {
+                "id": 2037052928,
+                "polar-user": "https://www.polaraccesslink.com/v3/users/59822586",
+                "transaction-id": 875324724,
+                "date": "2023-05-13",
+                "created": "2023-05-13T13:03:23.000",
+                "calories": 397,
+                "active-calories": 0,
+                "duration": "PT0S",
+                "active-steps": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "physical_summary",
+        "version": 2,
+        "user_id_string": "6467c3d2211e454e6ae0f283",
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "metadata": {
+                "datetime_string": "2023-05-19T18:41:25.000",
+                "user_id_string": "6467c3d2211e454e6ae0f283",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "distance": {
+                "steps_int": 3546,
+                "steps_granular_data_array": [],
+                "active_steps_int": 0,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 0,
+                "traveled_distance_meters_float": 0,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": 0,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": 0,
+                "elevation_minimum_altitude_meters_float": 0,
+                "elevation_maximum_altitude_meters_float": 0,
+                "elevation_loss_actual_altitude_meters_float": 0,
+                "elevation_gain_actual_altitude_meters_float": 0,
+                "elevation_planned_gain_meters_float": 0,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": 0,
+                "swimming_num_laps_int": 0,
+                "swimming_pool_length_meters_float": 0,
+                "swimming_total_distance_meters_float": 0,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": 0,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": 0,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 16080.0,
+                "rest_seconds_int": 0,
+                "low_intensity_seconds_int": 0,
+                "moderate_intensity_seconds_int": 0,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": 0,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": 0
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": 0,
+                "calories_expenditure_kcal_float": 1227,
+                "calories_net_active_kcal_float": 463,
+                "calories_basal_metabolic_rate_kcal_float": 0
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 0,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": 0,
+                "stress_duration_seconds_int": 0,
+                "low_stress_duration_seconds_int": 0,
+                "medium_stress_duration_seconds_int": 0,
+                "high_stress_duration_seconds_int": 0,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": 0,
+                "stress_maximum_level_int": 0
+              },
+              "non_structured_data_array": {
+                "id": 2047886956,
+                "polar-user": "https://www.polaraccesslink.com/v3/users/59822586",
+                "transaction-id": 879823205,
+                "date": "2023-05-19",
+                "created": "2023-05-19T18:41:25.000",
+                "calories": 1227,
+                "active-calories": 463,
+                "duration": "PT4H28M",
+                "active-steps": 3546
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "physical_summary",
+        "version": 2,
+        "user_id_string": "649b586a356e257ad1fe5868",
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "metadata": {
+                "datetime_string": "2023-06-27T21:38:28.000",
+                "user_id_string": "649b586a356e257ad1fe5868",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "distance": {
+                "steps_int": 6301,
+                "steps_granular_data_array": [],
+                "active_steps_int": 0,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 0,
+                "traveled_distance_meters_float": 0,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": 0,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": 0,
+                "elevation_minimum_altitude_meters_float": 0,
+                "elevation_maximum_altitude_meters_float": 0,
+                "elevation_loss_actual_altitude_meters_float": 0,
+                "elevation_gain_actual_altitude_meters_float": 0,
+                "elevation_planned_gain_meters_float": 0,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": 0,
+                "swimming_num_laps_int": 0,
+                "swimming_pool_length_meters_float": 0,
+                "swimming_total_distance_meters_float": 0,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": 0,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": 0,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 12300.0,
+                "rest_seconds_int": 0,
+                "low_intensity_seconds_int": 0,
+                "moderate_intensity_seconds_int": 0,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": 0,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": 0
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": 0,
+                "calories_expenditure_kcal_float": 1550,
+                "calories_net_active_kcal_float": 454,
+                "calories_basal_metabolic_rate_kcal_float": 0
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 0,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": 0,
+                "stress_duration_seconds_int": 0,
+                "low_stress_duration_seconds_int": 0,
+                "medium_stress_duration_seconds_int": 0,
+                "high_stress_duration_seconds_int": 0,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": 0,
+                "stress_maximum_level_int": 0
+              },
+              "non_structured_data_array": {
+                "id": 2103364470,
+                "polar-user": "https://www.polaraccesslink.com/v3/users/45452226",
+                "transaction-id": 902144627,
+                "date": "2023-06-27",
+                "created": "2023-06-27T21:38:28.000",
+                "calories": 1550,
+                "active-calories": 454,
+                "duration": "PT3H25M",
+                "active-steps": 6301
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "physical_summary",
+        "version": 2,
+        "user_id_string": "6483733b59d55d55f2fa3b8f",
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "metadata": {
+                "datetime_string": "2023-06-09T18:30:28.000",
+                "user_id_string": "6483733b59d55d55f2fa3b8f",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "distance": {
+                "steps_int": 742,
+                "steps_granular_data_array": [],
+                "active_steps_int": 0,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 0,
+                "traveled_distance_meters_float": 0,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": 0,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": 0,
+                "elevation_minimum_altitude_meters_float": 0,
+                "elevation_maximum_altitude_meters_float": 0,
+                "elevation_loss_actual_altitude_meters_float": 0,
+                "elevation_gain_actual_altitude_meters_float": 0,
+                "elevation_planned_gain_meters_float": 0,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": 0,
+                "swimming_num_laps_int": 0,
+                "swimming_pool_length_meters_float": 0,
+                "swimming_total_distance_meters_float": 0,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": 0,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": 0,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 4470.0,
+                "rest_seconds_int": 0,
+                "low_intensity_seconds_int": 0,
+                "moderate_intensity_seconds_int": 0,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": 0,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": 0
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": 0,
+                "calories_expenditure_kcal_float": 888,
+                "calories_net_active_kcal_float": 153,
+                "calories_basal_metabolic_rate_kcal_float": 0
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 0,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": 0,
+                "stress_duration_seconds_int": 0,
+                "low_stress_duration_seconds_int": 0,
+                "medium_stress_duration_seconds_int": 0,
+                "high_stress_duration_seconds_int": 0,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": 0,
+                "stress_maximum_level_int": 0
+              },
+              "non_structured_data_array": {
+                "id": 2078292451,
+                "polar-user": "https://www.polaraccesslink.com/v3/users/59822586",
+                "transaction-id": 892100087,
+                "date": "2023-06-09",
+                "created": "2023-06-09T18:30:28.000",
+                "calories": 888,
+                "active-calories": 153,
+                "duration": "PT1H14M30S",
+                "active-steps": 742
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "physical_summary",
+        "version": 2,
+        "user_id_string": "644b4161a8112c3c7243bb7c",
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "metadata": {
+                "datetime_string": "2023-04-28T03:35:41.000",
+                "user_id_string": "644b4161a8112c3c7243bb7c",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "distance": {
+                "steps_int": 10941,
+                "steps_granular_data_array": [],
+                "active_steps_int": 0,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 0,
+                "traveled_distance_meters_float": 0,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": 0,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": 0,
+                "elevation_minimum_altitude_meters_float": 0,
+                "elevation_maximum_altitude_meters_float": 0,
+                "elevation_loss_actual_altitude_meters_float": 0,
+                "elevation_gain_actual_altitude_meters_float": 0,
+                "elevation_planned_gain_meters_float": 0,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": 0,
+                "swimming_num_laps_int": 0,
+                "swimming_pool_length_meters_float": 0,
+                "swimming_total_distance_meters_float": 0,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": 0,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": 0,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 18030.0,
+                "rest_seconds_int": 0,
+                "low_intensity_seconds_int": 0,
+                "moderate_intensity_seconds_int": 0,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": 0,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": 0
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": 0,
+                "calories_expenditure_kcal_float": 2331,
+                "calories_net_active_kcal_float": 845,
+                "calories_basal_metabolic_rate_kcal_float": 0
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 0,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": 0,
+                "stress_duration_seconds_int": 0,
+                "low_stress_duration_seconds_int": 0,
+                "medium_stress_duration_seconds_int": 0,
+                "high_stress_duration_seconds_int": 0,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": 0,
+                "stress_maximum_level_int": 0
+              },
+              "non_structured_data_array": {
+                "id": 2010537790,
+                "polar-user": "https://www.polaraccesslink.com/v3/users/45452226",
+                "transaction-id": 864303931,
+                "date": "2023-04-27",
+                "created": "2023-04-28T03:35:41.000",
+                "calories": 2331,
+                "active-calories": 845,
+                "duration": "PT5H30S",
+                "active-steps": 10941
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "physical_summary",
+        "version": 2,
+        "user_id_string": "64593fce3b4306999a5cc432",
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "metadata": {
+                "datetime_string": "2023-05-08T18:21:33.000",
+                "user_id_string": "64593fce3b4306999a5cc432",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "distance": {
+                "steps_int": 14727,
+                "steps_granular_data_array": [],
+                "active_steps_int": 0,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 0,
+                "traveled_distance_meters_float": 0,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": 0,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": 0,
+                "elevation_minimum_altitude_meters_float": 0,
+                "elevation_maximum_altitude_meters_float": 0,
+                "elevation_loss_actual_altitude_meters_float": 0,
+                "elevation_gain_actual_altitude_meters_float": 0,
+                "elevation_planned_gain_meters_float": 0,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": 0,
+                "swimming_num_laps_int": 0,
+                "swimming_pool_length_meters_float": 0,
+                "swimming_total_distance_meters_float": 0,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": 0,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": 0,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 9180.0,
+                "rest_seconds_int": 0,
+                "low_intensity_seconds_int": 0,
+                "moderate_intensity_seconds_int": 0,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": 0,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": 0
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": 0,
+                "calories_expenditure_kcal_float": 1566,
+                "calories_net_active_kcal_float": 718,
+                "calories_basal_metabolic_rate_kcal_float": 0
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 0,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": 0,
+                "stress_duration_seconds_int": 0,
+                "low_stress_duration_seconds_int": 0,
+                "medium_stress_duration_seconds_int": 0,
+                "high_stress_duration_seconds_int": 0,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": 0,
+                "stress_maximum_level_int": 0
+              },
+              "non_structured_data_array": {
+                "id": 2028717648,
+                "polar-user": "https://www.polaraccesslink.com/v3/users/45452226",
+                "transaction-id": 871822504,
+                "date": "2023-05-08",
+                "created": "2023-05-08T18:21:33.000",
+                "calories": 1566,
+                "active-calories": 718,
+                "duration": "PT2H33M",
+                "active-steps": 14727
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "physical_summary",
+        "version": 2,
+        "user_id_string": "6482d18259d55d55f2f11f07",
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "metadata": {
+                "datetime_string": "2023-06-09T07:09:30.000",
+                "user_id_string": "6482d18259d55d55f2f11f07",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "distance": {
+                "steps_int": 10,
+                "steps_granular_data_array": [],
+                "active_steps_int": 0,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 0,
+                "traveled_distance_meters_float": 0,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": 0,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": 0,
+                "elevation_minimum_altitude_meters_float": 0,
+                "elevation_maximum_altitude_meters_float": 0,
+                "elevation_loss_actual_altitude_meters_float": 0,
+                "elevation_gain_actual_altitude_meters_float": 0,
+                "elevation_planned_gain_meters_float": 0,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": 0,
+                "swimming_num_laps_int": 0,
+                "swimming_pool_length_meters_float": 0,
+                "swimming_total_distance_meters_float": 0,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": 0,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": 0,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 180.0,
+                "rest_seconds_int": 0,
+                "low_intensity_seconds_int": 0,
+                "moderate_intensity_seconds_int": 0,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": 0,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": 0
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": 0,
+                "calories_expenditure_kcal_float": 75,
+                "calories_net_active_kcal_float": 7,
+                "calories_basal_metabolic_rate_kcal_float": 0
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 0,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": 0,
+                "stress_duration_seconds_int": 0,
+                "low_stress_duration_seconds_int": 0,
+                "medium_stress_duration_seconds_int": 0,
+                "high_stress_duration_seconds_int": 0,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": 0,
+                "stress_maximum_level_int": 0
+              },
+              "non_structured_data_array": {
+                "id": 2077714682,
+                "polar-user": "https://www.polaraccesslink.com/v3/users/59822586",
+                "transaction-id": 891867821,
+                "date": "2023-06-09",
+                "created": "2023-06-09T07:09:30.000",
+                "calories": 75,
+                "active-calories": 7,
+                "duration": "PT3M",
+                "active-steps": 10
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "physical_summary",
+        "version": 2,
+        "user_id_string": "647b27ca59d55d55f2421f25",
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "metadata": {
+                "datetime_string": "2023-06-03T11:32:24.000",
+                "user_id_string": "647b27ca59d55d55f2421f25",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "distance": {
+                "steps_int": 0,
+                "steps_granular_data_array": [],
+                "active_steps_int": 0,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 0,
+                "traveled_distance_meters_float": 0,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": 0,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": 0,
+                "elevation_minimum_altitude_meters_float": 0,
+                "elevation_maximum_altitude_meters_float": 0,
+                "elevation_loss_actual_altitude_meters_float": 0,
+                "elevation_gain_actual_altitude_meters_float": 0,
+                "elevation_planned_gain_meters_float": 0,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": 0,
+                "swimming_num_laps_int": 0,
+                "swimming_pool_length_meters_float": 0,
+                "swimming_total_distance_meters_float": 0,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": 0,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": 0,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 0.0,
+                "rest_seconds_int": 0,
+                "low_intensity_seconds_int": 0,
+                "moderate_intensity_seconds_int": 0,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": 0,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": 0
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": 0,
+                "calories_expenditure_kcal_float": 311,
+                "calories_net_active_kcal_float": 0,
+                "calories_basal_metabolic_rate_kcal_float": 0
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 0,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": 0,
+                "stress_duration_seconds_int": 0,
+                "low_stress_duration_seconds_int": 0,
+                "medium_stress_duration_seconds_int": 0,
+                "high_stress_duration_seconds_int": 0,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": 0,
+                "stress_maximum_level_int": 0
+              },
+              "non_structured_data_array": {
+                "id": 2071003942,
+                "polar-user": "https://www.polaraccesslink.com/v3/users/59822586",
+                "transaction-id": 889327221,
+                "date": "2023-06-03",
+                "created": "2023-06-03T11:32:24.000",
+                "calories": 311,
+                "active-calories": 0,
+                "duration": "PT0S",
+                "active-steps": 0
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "sleep_health": {
+    "sleep_summaries": [
+      {
+        "data_structure": "sleep_summary",
+        "version": 2,
+        "user_id_string": "6448af065bbf610fabd83aea",
+        "sleep_health": {
+          "summary": {
+            "sleep_summary": {
+              "metadata": {
+                "datetime_string": "2023-04-24T02:33:21.828-06:00",
+                "user_id_string": "6448af065bbf610fabd83aea",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "duration": {
+                "sleep_start_datetime_string": "2023-04-24T02:33:21.828-06:00",
+                "sleep_end_datetime_string": "2023-04-24T09:16:51.828-06:00",
+                "sleep_date_string": "2023-04-24",
+                "sleep_duration_seconds_int": 22500,
+                "time_in_bed_seconds_int": 24210,
+                "light_sleep_duration_seconds_int": 12990,
+                "rem_sleep_duration_seconds_int": 5850,
+                "deep_sleep_duration_seconds_int": 3660,
+                "time_to_fall_asleep_seconds_int": 0,
+                "time_awake_during_sleep_seconds_int": 1710
+              },
+              "scores": {
+                "sleep_quality_rating_1_5_score_int": 0,
+                "sleep_efficiency_1_100_score_int": 70,
+                "sleep_goal_seconds_int": 28800,
+                "sleep_continuity_1_5_score_int": 2.9,
+                "sleep_continuity_1_5_rating_int": 2
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 0,
+                "hr_basal_bpm_int": 0,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "temperature": {
+                "temperature_minimum_celsius_float": 0,
+                "temperature_avg_celsius_float": 0,
+                "temperature_maximum_celsius_float": 0,
+                "temperature_granular_data_array": [],
+                "temperature_delta_celsius_float": 0
+              },
+              "breathing": {
+                "breaths_minimum_per_min_int": 0,
+                "breaths_avg_per_min_int": 0,
+                "breaths_maximum_per_min_int": 0,
+                "breathing_granular_data_array": [],
+                "snoring_events_count_int": 0,
+                "snoring_duration_total_seconds_int": 0,
+                "snoring_granular_data_array": [],
+                "saturation_avg_percentage_int": 0,
+                "saturation_minimum_percentage_int": 0,
+                "saturation_maximum_percentage_int": 0,
+                "saturation_granular_data_array": []
+              },
+              "non_structured_data_array": {
+                "polar_user": "https://polaraccesslink.com/v3/users/59822586",
+                "date": "2023-04-24",
+                "sleep_start_time": "2023-04-24T02:33:21.828-06:00",
+                "sleep_end_time": "2023-04-24T09:16:51.828-06:00",
+                "device_id": "A805282F",
+                "continuity": 2.9,
+                "continuity_class": 2,
+                "light_sleep": 12990,
+                "deep_sleep": 3660,
+                "rem_sleep": 5850,
+                "unrecognized_sleep_stage": 0,
+                "sleep_score": 70,
+                "total_interruption_duration": 1710,
+                "sleep_charge": 4,
+                "sleep_rating": 0,
+                "sleep_goal": 28800,
+                "short_interruption_duration": 810,
+                "long_interruption_duration": 900,
+                "sleep_cycles": 5,
+                "group_duration_score": 55.375,
+                "group_solidity_score": 63.0818,
+                "group_regeneration_score": 92.3686,
+                "hypnogram": {
+                  "02:33": 3,
+                  "02:57": 0,
+                  "02:58": 3,
+                  "02:59": 4,
+                  "03:15": 0,
+                  "03:16": 4,
+                  "03:25": 3,
+                  "03:27": 0,
+                  "03:28": 3,
+                  "03:33": 1,
+                  "03:34": 0,
+                  "03:36": 1,
+                  "04:06": 0,
+                  "04:07": 3,
+                  "04:30": 4,
+                  "04:46": 3,
+                  "05:06": 0,
+                  "05:08": 3,
+                  "05:18": 0,
+                  "05:19": 3,
+                  "05:25": 0,
+                  "05:28": 3,
+                  "05:31": 1,
+                  "05:41": 0,
+                  "05:42": 3,
+                  "05:43": 1,
+                  "05:48": 0,
+                  "05:49": 3,
+                  "05:50": 1,
+                  "05:56": 3,
+                  "06:00": 0,
+                  "06:02": 3,
+                  "06:12": 3,
+                  "06:18": 4,
+                  "06:31": 3,
+                  "06:36": 0,
+                  "06:37": 3,
+                  "06:48": 0,
+                  "06:50": 3,
+                  "06:55": 1,
+                  "07:06": 1,
+                  "07:16": 3,
+                  "07:17": 1,
+                  "07:21": 1,
+                  "07:22": 3,
+                  "07:31": 0,
+                  "07:33": 3,
+                  "07:37": 4,
+                  "07:38": 3,
+                  "07:44": 4,
+                  "07:45": 3,
+                  "07:48": 4,
+                  "07:51": 3,
+                  "08:13": 0,
+                  "08:14": 3,
+                  "08:28": 1,
+                  "08:30": 3,
+                  "08:31": 1,
+                  "08:35": 0,
+                  "08:36": 1,
+                  "08:39": 0,
+                  "08:40": 1,
+                  "08:42": 0,
+                  "08:43": 1,
+                  "08:44": 0,
+                  "08:47": 3,
+                  "08:48": 1,
+                  "08:51": 3,
+                  "08:53": 1,
+                  "08:58": 0,
+                  "08:59": 3,
+                  "09:02": 3,
+                  "09:05": 4,
+                  "09:06": 0,
+                  "09:07": 3,
+                  "09:17": 0
+                },
+                "heart_rate_samples": {}
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "sleep_summary",
+        "version": 2,
+        "user_id_string": "6448af065bbf610fabd83b0d",
+        "sleep_health": {
+          "summary": {
+            "sleep_summary": {
+              "metadata": {
+                "datetime_string": "2023-04-21T23:39:21.88-06:00",
+                "user_id_string": "6448af065bbf610fabd83b0d",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "duration": {
+                "sleep_start_datetime_string": "2023-04-21T23:39:21.88-06:00",
+                "sleep_end_datetime_string": "2023-04-22T09:04:21.88-06:00",
+                "sleep_date_string": "2023-04-22",
+                "sleep_duration_seconds_int": 31470,
+                "time_in_bed_seconds_int": 33900,
+                "light_sleep_duration_seconds_int": 19080,
+                "rem_sleep_duration_seconds_int": 7560,
+                "deep_sleep_duration_seconds_int": 4830,
+                "time_to_fall_asleep_seconds_int": 0,
+                "time_awake_during_sleep_seconds_int": 2430
+              },
+              "scores": {
+                "sleep_quality_rating_1_5_score_int": 0,
+                "sleep_efficiency_1_100_score_int": 79,
+                "sleep_goal_seconds_int": 28800,
+                "sleep_continuity_1_5_score_int": 2.0,
+                "sleep_continuity_1_5_rating_int": 2
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 0,
+                "hr_basal_bpm_int": 0,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "temperature": {
+                "temperature_minimum_celsius_float": 0,
+                "temperature_avg_celsius_float": 0,
+                "temperature_maximum_celsius_float": 0,
+                "temperature_granular_data_array": [],
+                "temperature_delta_celsius_float": 0
+              },
+              "breathing": {
+                "breaths_minimum_per_min_int": 0,
+                "breaths_avg_per_min_int": 0,
+                "breaths_maximum_per_min_int": 0,
+                "breathing_granular_data_array": [],
+                "snoring_events_count_int": 0,
+                "snoring_duration_total_seconds_int": 0,
+                "snoring_granular_data_array": [],
+                "saturation_avg_percentage_int": 0,
+                "saturation_minimum_percentage_int": 0,
+                "saturation_maximum_percentage_int": 0,
+                "saturation_granular_data_array": []
+              },
+              "non_structured_data_array": {
+                "polar_user": "https://polaraccesslink.com/v3/users/59822586",
+                "date": "2023-04-22",
+                "sleep_start_time": "2023-04-21T23:39:21.88-06:00",
+                "sleep_end_time": "2023-04-22T09:04:21.88-06:00",
+                "device_id": "A805282F",
+                "continuity": 2.0,
+                "continuity_class": 2,
+                "light_sleep": 19080,
+                "deep_sleep": 4830,
+                "rem_sleep": 7560,
+                "unrecognized_sleep_stage": 0,
+                "sleep_score": 79,
+                "total_interruption_duration": 2430,
+                "sleep_charge": 5,
+                "sleep_rating": 0,
+                "sleep_goal": 28800,
+                "short_interruption_duration": 1620,
+                "long_interruption_duration": 810,
+                "sleep_cycles": 6,
+                "group_duration_score": 100.0,
+                "group_solidity_score": 58.3486,
+                "group_regeneration_score": 86.7788,
+                "hypnogram": {
+                  "23:39": 3,
+                  "23:55": 0,
+                  "23:56": 3,
+                  "00:08": 3,
+                  "00:09": 4,
+                  "00:53": 3,
+                  "00:58": 1,
+                  "01:05": 0,
+                  "01:06": 3,
+                  "01:07": 0,
+                  "01:10": 3,
+                  "01:11": 1,
+                  "01:24": 3,
+                  "01:26": 0,
+                  "01:27": 3,
+                  "01:30": 0,
+                  "01:31": 3,
+                  "01:34": 3,
+                  "01:36": 0,
+                  "01:37": 3,
+                  "01:42": 0,
+                  "01:43": 3,
+                  "01:51": 0,
+                  "01:53": 3,
+                  "01:57": 0,
+                  "01:58": 3,
+                  "02:07": 3,
+                  "02:10": 4,
+                  "02:17": 4,
+                  "02:23": 3,
+                  "02:36": 0,
+                  "02:37": 3,
+                  "02:41": 3,
+                  "02:47": 1,
+                  "02:49": 0,
+                  "02:50": 1,
+                  "02:58": 1,
+                  "03:01": 0,
+                  "03:03": 1,
+                  "03:22": 0,
+                  "03:23": 3,
+                  "03:43": 4,
+                  "03:44": 3,
+                  "03:48": 0,
+                  "03:49": 3,
+                  "03:52": 0,
+                  "03:53": 3,
+                  "03:54": 4,
+                  "03:59": 3,
+                  "04:04": 3,
+                  "04:14": 1,
+                  "04:15": 1,
+                  "04:18": 1,
+                  "04:20": 3,
+                  "04:22": 1,
+                  "04:31": 0,
+                  "04:32": 1,
+                  "04:39": 1,
+                  "04:45": 1,
+                  "04:53": 0,
+                  "04:54": 3,
+                  "04:55": 0,
+                  "04:56": 3,
+                  "05:12": 4,
+                  "05:20": 3,
+                  "05:21": 4,
+                  "05:22": 3,
+                  "05:26": 4,
+                  "05:27": 3,
+                  "05:30": 0,
+                  "05:31": 3,
+                  "05:33": 0,
+                  "05:34": 3,
+                  "06:01": 0,
+                  "06:06": 3,
+                  "06:11": 0,
+                  "06:12": 3,
+                  "06:21": 3,
+                  "06:36": 0,
+                  "06:37": 1,
+                  "06:50": 3,
+                  "07:13": 0,
+                  "07:14": 3,
+                  "07:15": 4,
+                  "07:18": 3,
+                  "07:19": 0,
+                  "07:20": 3,
+                  "07:34": 0,
+                  "07:35": 3,
+                  "07:36": 1,
+                  "07:38": 0,
+                  "07:39": 1,
+                  "07:47": 0,
+                  "07:48": 1,
+                  "08:03": 0,
+                  "08:05": 1,
+                  "08:06": 3,
+                  "08:43": 0,
+                  "08:45": 4,
+                  "08:50": 0,
+                  "08:51": 3,
+                  "08:58": 3,
+                  "09:02": 3,
+                  "09:03": 1,
+                  "09:04": 0
+                },
+                "heart_rate_samples": {}
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "sleep_summary",
+        "version": 2,
+        "user_id_string": "6448af075bbf610fabd83b63",
+        "sleep_health": {
+          "summary": {
+            "sleep_summary": {
+              "metadata": {
+                "datetime_string": "2023-04-20T23:16:08.055-06:00",
+                "user_id_string": "6448af075bbf610fabd83b63",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "duration": {
+                "sleep_start_datetime_string": "2023-04-20T23:16:08.055-06:00",
+                "sleep_end_datetime_string": "2023-04-21T04:43:08.055-06:00",
+                "sleep_date_string": "2023-04-21",
+                "sleep_duration_seconds_int": 17550,
+                "time_in_bed_seconds_int": 19620,
+                "light_sleep_duration_seconds_int": 9990,
+                "rem_sleep_duration_seconds_int": 3750,
+                "deep_sleep_duration_seconds_int": 3810,
+                "time_to_fall_asleep_seconds_int": 0,
+                "time_awake_during_sleep_seconds_int": 2070
+              },
+              "scores": {
+                "sleep_quality_rating_1_5_score_int": 0,
+                "sleep_efficiency_1_100_score_int": 50,
+                "sleep_goal_seconds_int": 28800,
+                "sleep_continuity_1_5_score_int": 1.8,
+                "sleep_continuity_1_5_rating_int": 1
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 0,
+                "hr_basal_bpm_int": 0,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "temperature": {
+                "temperature_minimum_celsius_float": 0,
+                "temperature_avg_celsius_float": 0,
+                "temperature_maximum_celsius_float": 0,
+                "temperature_granular_data_array": [],
+                "temperature_delta_celsius_float": 0
+              },
+              "breathing": {
+                "breaths_minimum_per_min_int": 0,
+                "breaths_avg_per_min_int": 0,
+                "breaths_maximum_per_min_int": 0,
+                "breathing_granular_data_array": [],
+                "snoring_events_count_int": 0,
+                "snoring_duration_total_seconds_int": 0,
+                "snoring_granular_data_array": [],
+                "saturation_avg_percentage_int": 0,
+                "saturation_minimum_percentage_int": 0,
+                "saturation_maximum_percentage_int": 0,
+                "saturation_granular_data_array": []
+              },
+              "non_structured_data_array": {
+                "polar_user": "https://polaraccesslink.com/v3/users/59822586",
+                "date": "2023-04-21",
+                "sleep_start_time": "2023-04-20T23:16:08.055-06:00",
+                "sleep_end_time": "2023-04-21T04:43:08.055-06:00",
+                "device_id": "A805282F",
+                "continuity": 1.8,
+                "continuity_class": 1,
+                "light_sleep": 9990,
+                "deep_sleep": 3810,
+                "rem_sleep": 3750,
+                "unrecognized_sleep_stage": 0,
+                "sleep_score": 50,
+                "total_interruption_duration": 2070,
+                "sleep_charge": 1,
+                "sleep_rating": 0,
+                "sleep_goal": 28800,
+                "short_interruption_duration": 1050,
+                "long_interruption_duration": 1020,
+                "sleep_cycles": 3,
+                "group_duration_score": 20.875,
+                "group_solidity_score": 45.999,
+                "group_regeneration_score": 84.4692,
+                "hypnogram": {
+                  "23:16": 3,
+                  "23:17": 0,
+                  "23:18": 3,
+                  "23:19": 0,
+                  "23:20": 3,
+                  "23:21": 0,
+                  "23:22": 3,
+                  "23:23": 0,
+                  "23:24": 3,
+                  "23:31": 0,
+                  "23:35": 3,
+                  "23:36": 0,
+                  "23:43": 3,
+                  "23:46": 3,
+                  "23:47": 4,
+                  "23:53": 0,
+                  "23:54": 3,
+                  "23:55": 4,
+                  "00:16": 3,
+                  "00:29": 0,
+                  "00:30": 3,
+                  "00:36": 0,
+                  "00:37": 3,
+                  "00:42": 4,
+                  "00:43": 3,
+                  "00:46": 0,
+                  "00:48": 3,
+                  "00:49": 4,
+                  "00:50": 0,
+                  "00:52": 4,
+                  "00:57": 0,
+                  "00:58": 4,
+                  "01:13": 3,
+                  "01:21": 3,
+                  "01:28": 3,
+                  "01:32": 0,
+                  "01:33": 3,
+                  "01:37": 1,
+                  "01:38": 3,
+                  "01:40": 3,
+                  "01:52": 1,
+                  "01:54": 0,
+                  "01:55": 3,
+                  "01:56": 1,
+                  "02:00": 0,
+                  "02:01": 1,
+                  "02:05": 1,
+                  "02:09": 0,
+                  "02:10": 3,
+                  "02:11": 1,
+                  "02:23": 3,
+                  "02:42": 4,
+                  "02:50": 3,
+                  "02:57": 0,
+                  "02:58": 3,
+                  "03:05": 1,
+                  "03:17": 1,
+                  "03:26": 0,
+                  "03:27": 1,
+                  "03:32": 3,
+                  "03:35": 3,
+                  "03:52": 4,
+                  "03:57": 3,
+                  "04:07": 0,
+                  "04:08": 3,
+                  "04:14": 0,
+                  "04:17": 3,
+                  "04:31": 0,
+                  "04:32": 3,
+                  "04:34": 1,
+                  "04:41": 1,
+                  "04:42": 3,
+                  "04:43": 0
+                },
+                "heart_rate_samples": {}
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "sleep_summary",
+        "version": 2,
+        "user_id_string": "6448af065bbf610fabd83ad0",
+        "sleep_health": {
+          "summary": {
+            "sleep_summary": {
+              "metadata": {
+                "datetime_string": "2023-04-24T21:53:50.952-06:00",
+                "user_id_string": "6448af065bbf610fabd83ad0",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "duration": {
+                "sleep_start_datetime_string": "2023-04-24T21:53:50.952-06:00",
+                "sleep_end_datetime_string": "2023-04-25T05:21:50.952-06:00",
+                "sleep_date_string": "2023-04-25",
+                "sleep_duration_seconds_int": 25170,
+                "time_in_bed_seconds_int": 26880,
+                "light_sleep_duration_seconds_int": 14130,
+                "rem_sleep_duration_seconds_int": 6120,
+                "deep_sleep_duration_seconds_int": 4920,
+                "time_to_fall_asleep_seconds_int": 0,
+                "time_awake_during_sleep_seconds_int": 1710
+              },
+              "scores": {
+                "sleep_quality_rating_1_5_score_int": 0,
+                "sleep_efficiency_1_100_score_int": 79,
+                "sleep_goal_seconds_int": 28800,
+                "sleep_continuity_1_5_score_int": 2.6,
+                "sleep_continuity_1_5_rating_int": 2
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 0,
+                "hr_basal_bpm_int": 0,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "temperature": {
+                "temperature_minimum_celsius_float": 0,
+                "temperature_avg_celsius_float": 0,
+                "temperature_maximum_celsius_float": 0,
+                "temperature_granular_data_array": [],
+                "temperature_delta_celsius_float": 0
+              },
+              "breathing": {
+                "breaths_minimum_per_min_int": 0,
+                "breaths_avg_per_min_int": 0,
+                "breaths_maximum_per_min_int": 0,
+                "breathing_granular_data_array": [],
+                "snoring_events_count_int": 0,
+                "snoring_duration_total_seconds_int": 0,
+                "snoring_granular_data_array": [],
+                "saturation_avg_percentage_int": 0,
+                "saturation_minimum_percentage_int": 0,
+                "saturation_maximum_percentage_int": 0,
+                "saturation_granular_data_array": []
+              },
+              "non_structured_data_array": {
+                "polar_user": "https://polaraccesslink.com/v3/users/59822586",
+                "date": "2023-04-25",
+                "sleep_start_time": "2023-04-24T21:53:50.952-06:00",
+                "sleep_end_time": "2023-04-25T05:21:50.952-06:00",
+                "device_id": "A805282F",
+                "continuity": 2.6,
+                "continuity_class": 2,
+                "light_sleep": 14130,
+                "deep_sleep": 4920,
+                "rem_sleep": 6120,
+                "unrecognized_sleep_stage": 0,
+                "sleep_score": 79,
+                "total_interruption_duration": 1710,
+                "sleep_charge": 5,
+                "sleep_rating": 0,
+                "sleep_goal": 28800,
+                "short_interruption_duration": 1080,
+                "long_interruption_duration": 630,
+                "sleep_cycles": 4,
+                "group_duration_score": 81.3333,
+                "group_solidity_score": 67.1409,
+                "group_regeneration_score": 93.9158,
+                "hypnogram": {
+                  "21:53": 0,
+                  "21:54": 3,
+                  "22:07": 0,
+                  "22:09": 3,
+                  "22:13": 3,
+                  "22:19": 0,
+                  "22:20": 3,
+                  "22:36": 4,
+                  "22:38": 3,
+                  "22:42": 4,
+                  "23:04": 0,
+                  "23:05": 3,
+                  "23:06": 4,
+                  "23:14": 3,
+                  "23:15": 4,
+                  "23:28": 3,
+                  "23:34": 1,
+                  "23:49": 0,
+                  "23:50": 1,
+                  "23:57": 1,
+                  "23:58": 3,
+                  "00:14": 0,
+                  "00:15": 3,
+                  "00:19": 0,
+                  "00:20": 3,
+                  "00:32": 0,
+                  "00:33": 3,
+                  "00:35": 4,
+                  "00:39": 3,
+                  "00:40": 4,
+                  "00:47": 3,
+                  "00:51": 4,
+                  "00:53": 3,
+                  "01:02": 0,
+                  "01:03": 3,
+                  "01:14": 0,
+                  "01:16": 3,
+                  "01:17": 1,
+                  "01:30": 3,
+                  "01:32": 3,
+                  "01:33": 1,
+                  "01:45": 0,
+                  "01:48": 1,
+                  "01:49": 3,
+                  "01:51": 3,
+                  "02:04": 1,
+                  "02:05": 3,
+                  "02:26": 3,
+                  "02:28": 0,
+                  "02:29": 3,
+                  "02:44": 4,
+                  "02:47": 3,
+                  "02:48": 4,
+                  "02:54": 3,
+                  "02:55": 4,
+                  "02:58": 3,
+                  "03:02": 3,
+                  "03:13": 0,
+                  "03:14": 3,
+                  "03:15": 1,
+                  "03:21": 0,
+                  "03:22": 1,
+                  "03:28": 0,
+                  "03:29": 3,
+                  "03:30": 1,
+                  "03:35": 0,
+                  "03:36": 3,
+                  "03:37": 1,
+                  "03:45": 0,
+                  "03:46": 3,
+                  "03:47": 1,
+                  "03:51": 3,
+                  "03:53": 0,
+                  "03:54": 3,
+                  "04:02": 0,
+                  "04:03": 3,
+                  "04:24": 4,
+                  "04:36": 3,
+                  "04:47": 0,
+                  "04:48": 3,
+                  "05:01": 1,
+                  "05:04": 0,
+                  "05:05": 3,
+                  "05:06": 1,
+                  "05:22": 0
+                },
+                "heart_rate_samples": {}
+              }
+            }
+          }
+        }
+      },
+      {
+        "data_structure": "sleep_summary",
+        "version": 2,
+        "user_id_string": "6448af065bbf610fabd83b1a",
+        "sleep_health": {
+          "summary": {
+            "sleep_summary": {
+              "metadata": {
+                "datetime_string": "2023-04-23T04:05:40.872-06:00",
+                "user_id_string": "6448af065bbf610fabd83b1a",
+                "sources_of_data_array": [
+                  "Polar"
+                ]
+              },
+              "duration": {
+                "sleep_start_datetime_string": "2023-04-23T04:05:40.872-06:00",
+                "sleep_end_datetime_string": "2023-04-23T10:46:10.872-06:00",
+                "sleep_date_string": "2023-04-23",
+                "sleep_duration_seconds_int": 22290,
+                "time_in_bed_seconds_int": 24030,
+                "light_sleep_duration_seconds_int": 10410,
+                "rem_sleep_duration_seconds_int": 6480,
+                "deep_sleep_duration_seconds_int": 5400,
+                "time_to_fall_asleep_seconds_int": 0,
+                "time_awake_during_sleep_seconds_int": 1740
+              },
+              "scores": {
+                "sleep_quality_rating_1_5_score_int": 0,
+                "sleep_efficiency_1_100_score_int": 67,
+                "sleep_goal_seconds_int": 28800,
+                "sleep_continuity_1_5_score_int": 2.6,
+                "sleep_continuity_1_5_rating_int": 2
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": 0,
+                "hr_basal_bpm_int": 0,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": 0,
+                "hrv_avg_sdnn_float": 0,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "temperature": {
+                "temperature_minimum_celsius_float": 0,
+                "temperature_avg_celsius_float": 0,
+                "temperature_maximum_celsius_float": 0,
+                "temperature_granular_data_array": [],
+                "temperature_delta_celsius_float": 0
+              },
+              "breathing": {
+                "breaths_minimum_per_min_int": 0,
+                "breaths_avg_per_min_int": 0,
+                "breaths_maximum_per_min_int": 0,
+                "breathing_granular_data_array": [],
+                "snoring_events_count_int": 0,
+                "snoring_duration_total_seconds_int": 0,
+                "snoring_granular_data_array": [],
+                "saturation_avg_percentage_int": 0,
+                "saturation_minimum_percentage_int": 0,
+                "saturation_maximum_percentage_int": 0,
+                "saturation_granular_data_array": []
+              },
+              "non_structured_data_array": {
+                "polar_user": "https://polaraccesslink.com/v3/users/59822586",
+                "date": "2023-04-23",
+                "sleep_start_time": "2023-04-23T04:05:40.872-06:00",
+                "sleep_end_time": "2023-04-23T10:46:10.872-06:00",
+                "device_id": "A805282F",
+                "continuity": 2.6,
+                "continuity_class": 2,
+                "light_sleep": 10410,
+                "deep_sleep": 5400,
+                "rem_sleep": 6480,
+                "unrecognized_sleep_stage": 0,
+                "sleep_score": 67,
+                "total_interruption_duration": 1740,
+                "sleep_charge": 3,
+                "sleep_rating": 0,
+                "sleep_goal": 28800,
+                "short_interruption_duration": 990,
+                "long_interruption_duration": 750,
+                "sleep_cycles": 4,
+                "group_duration_score": 53.625,
+                "group_solidity_score": 63.1868,
+                "group_regeneration_score": 83.6758,
+                "hypnogram": {
+                  "04:05": 0,
+                  "04:06": 3,
+                  "04:21": 3,
+                  "04:24": 4,
+                  "04:53": 3,
+                  "04:54": 4,
+                  "05:02": 0,
+                  "05:03": 3,
+                  "05:04": 4,
+                  "05:05": 3,
+                  "05:06": 4,
+                  "05:30": 0,
+                  "05:31": 3,
+                  "05:38": 1,
+                  "05:40": 0,
+                  "05:41": 3,
+                  "05:42": 1,
+                  "05:43": 3,
+                  "05:48": 1,
+                  "05:51": 3,
+                  "05:52": 1,
+                  "06:01": 3,
+                  "06:02": 0,
+                  "06:03": 1,
+                  "06:06": 3,
+                  "06:40": 1,
+                  "06:49": 0,
+                  "06:50": 1,
+                  "06:55": 0,
+                  "06:56": 1,
+                  "07:03": 1,
+                  "07:10": 3,
+                  "07:14": 3,
+                  "07:28": 4,
+                  "07:32": 3,
+                  "07:34": 0,
+                  "07:35": 3,
+                  "07:47": 0,
+                  "07:48": 3,
+                  "07:51": 0,
+                  "07:52": 3,
+                  "07:57": 0,
+                  "07:58": 3,
+                  "08:01": 0,
+                  "08:02": 3,
+                  "08:11": 0,
+                  "08:12": 3,
+                  "08:19": 0,
+                  "08:20": 3,
+                  "08:24": 0,
+                  "08:26": 1,
+                  "08:52": 0,
+                  "08:57": 1,
+                  "08:59": 0,
+                  "09:01": 1,
+                  "09:04": 3,
+                  "09:10": 0,
+                  "09:12": 3,
+                  "09:23": 4,
+                  "09:24": 3,
+                  "09:25": 4,
+                  "09:29": 0,
+                  "09:30": 4,
+                  "09:42": 0,
+                  "09:43": 4,
+                  "09:50": 3,
+                  "10:04": 0,
+                  "10:05": 3,
+                  "10:07": 0,
+                  "10:08": 3,
+                  "10:13": 1,
+                  "10:24": 0,
+                  "10:26": 1,
+                  "10:28": 0,
+                  "10:29": 1,
+                  "10:46": 0
+                },
+                "heart_rate_samples": {}
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
