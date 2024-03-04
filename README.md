@@ -1,9 +1,9 @@
 # ROOK-DATASETS
 
-Last update: 2024-01-29
+Last update: 2024-03-04
 
 ##
-In this repository, you can find examples of the data structures that ROOK manages, grouped by the data source that provides the information. In this version, we have data from Fitbit, Garmin, Oura, Polar, and Whoop.
+In this [repository](https://github.com/RookeriesDevelopment/rook-data-datasets), you can find examples of the data structures that ROOK manages, grouped by the data source that provides the information. In this version, we have data from Fitbit, Garmin, Oura, Polar, and Whoop.
 
 ### Available Data Structures
 The detailed definitions of each of the structures are provided in the [ROOK](https://docs.tryrook.io/docs/rookconnect/data-structure) documentation. With regard to the information available in this repository, the following data can be found:
