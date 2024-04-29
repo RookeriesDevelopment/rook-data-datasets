@@ -1,7 +1,7 @@
 {
   "data_structure": "ROOKConnect_Withings_dataset",
   "version": 2,
-  "created_at": "2024-03-28T16:35:20.633980Z",
+  "created_at": "2024-04-29T21:11:08.557648Z",
   "body_health": {
     "blood_glucose_events": [],
     "blood_pressure_events": [],
@@ -15,11 +15,3733 @@
     "body_summaries": []
   },
   "physical_health": {
-    "activity_events": [],
+    "activity_events": [
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "5254db94-8dbc-4ffb-9b7d-80710722e8aa",
+        "user_id": "662093ace199c5a3365fce7f",
+        "document_version": 20,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-13T23:51:00.000000Z",
+                  "user_id_string": "662093ace199c5a3365fce7f",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-13T23:51:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-14T00:03:00.000000Z",
+                  "activity_duration_seconds_int": 720,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 18.5,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 683,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 493.76998901367,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "be77eede-61f8-409d-b7ee-5d6cd87080d8",
+        "user_id": "662093aee199c5a3365fd3a5",
+        "document_version": 24,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-16T01:11:00.000000Z",
+                  "user_id_string": "662093aee199c5a3365fd3a5",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-16T01:11:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-16T01:55:00.000000Z",
+                  "activity_duration_seconds_int": 2640,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 87.640014648438,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 3781,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 2629.1999511719,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": 69,
+                  "hr_minimum_bpm_int": 64,
+                  "hr_avg_bpm_int": 66,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "af077ef6-e1f2-4a0b-bea2-1ea36bf4b434",
+        "user_id": "662093b3e199c5a3365fde4e",
+        "document_version": 22,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-16T00:06:00.000000Z",
+                  "user_id_string": "662093b3e199c5a3365fde4e",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-16T00:06:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-16T00:18:00.000000Z",
+                  "activity_duration_seconds_int": 720,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 29.899997711182,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 1209,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 888.00006103516,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "17c7853f-79de-400a-8729-6dc7f96f69ea",
+        "user_id": "662093b7e199c5a3365fe787",
+        "document_version": 30,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-17T01:23:00.000000Z",
+                  "user_id_string": "662093b7e199c5a3365fe787",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-17T01:23:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-17T01:29:00.000000Z",
+                  "activity_duration_seconds_int": 360,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 12.410000801086,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 512,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 363.59997558594,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "44564ac2-12fe-4ca5-855e-9f2db6acf166",
+        "user_id": "662093bce199c5a3365ff4b3",
+        "document_version": 62,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-18T03:11:00.000000Z",
+                  "user_id_string": "662093bce199c5a3365ff4b3",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-18T03:11:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-18T03:55:00.000000Z",
+                  "activity_duration_seconds_int": 2640,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 59.729991912842,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 2842,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 1976.1099853516,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "d94cc480-9a87-482f-8b21-8e82380f65af",
+        "user_id": "662093bfe199c5a3365ffbce",
+        "document_version": 46,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-18T00:09:00.000000Z",
+                  "user_id_string": "662093bfe199c5a3365ffbce",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-18T00:09:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-18T00:28:00.000000Z",
+                  "activity_duration_seconds_int": 1140,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 31.199998855591,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 1382,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 978.50994873047,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "bc179e91-7366-44a7-89c7-9e038db42b12",
+        "user_id": "6621bea9fd3b48b1cdc6ba24",
+        "document_version": 55,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-19T00:05:00.000000Z",
+                  "user_id_string": "6621bea9fd3b48b1cdc6ba24",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-19T00:05:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-19T00:10:00.000000Z",
+                  "activity_duration_seconds_int": 300,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 7.1199998855591,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 467,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 328.39001464844,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "0af5838a-c828-40b2-9f0c-fa7ac4460a20",
+        "user_id": "66231a6bfd3b48b1cdfbbce2",
+        "document_version": 72,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-20T00:43:00.000000Z",
+                  "user_id_string": "66231a6bfd3b48b1cdfbbce2",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-20T00:43:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-20T00:57:00.000000Z",
+                  "activity_duration_seconds_int": 840,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 23.050001144409,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 986,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 699.05999755859,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "e36eba65-ae10-40de-b4eb-68133abe07cb",
+        "user_id": "6623e4ddfd3b48b1cd1dacda",
+        "document_version": 76,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-20T14:38:00.000000Z",
+                  "user_id_string": "6623e4ddfd3b48b1cd1dacda",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-20T14:38:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-20T14:49:00.000000Z",
+                  "activity_duration_seconds_int": 660,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 16.860000610352,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 793,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 559.32000732422,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "4049b4ac-1e70-4f3b-9053-7cd5c5d251c6",
+        "user_id": "6623e4defd3b48b1cd1db1b8",
+        "document_version": 80,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-20T15:02:00.000000Z",
+                  "user_id_string": "6623e4defd3b48b1cd1db1b8",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-20T15:02:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-20T15:07:00.000000Z",
+                  "activity_duration_seconds_int": 300,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 12.940000534058,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 510,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 375.71002197266,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "c3471af1-3df0-4f31-8d61-7ac7b79c31ff",
+        "user_id": "6623e4dffd3b48b1cd1db822",
+        "document_version": 82,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-20T15:13:00.000000Z",
+                  "user_id_string": "6623e4dffd3b48b1cd1db822",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-20T15:13:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-20T15:20:00.000000Z",
+                  "activity_duration_seconds_int": 420,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 14.539999961853,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 609,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 441.58001708984,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "35292eae-c917-4304-93c0-0c78158249b2",
+        "user_id": "6625579bfd3b48b1cd3ab297",
+        "document_version": 59,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-21T16:19:00.000000Z",
+                  "user_id_string": "6625579bfd3b48b1cd3ab297",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-21T16:19:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-21T16:40:00.000000Z",
+                  "activity_duration_seconds_int": 1260,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 29.259998321533,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 1315,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 934.47998046875,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": 95,
+                  "hr_minimum_bpm_int": 65,
+                  "hr_avg_bpm_int": 75,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "c95b43ca-1176-47d2-839c-052000e9424b",
+        "user_id": "6625579dfd3b48b1cd3abdab",
+        "document_version": 59,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-21T17:17:00.000000Z",
+                  "user_id_string": "6625579dfd3b48b1cd3abdab",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-21T17:17:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-21T17:51:00.000000Z",
+                  "activity_duration_seconds_int": 2040,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 46.829998016357,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 2070,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 1467.0001220703,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "e18d8684-98d8-434b-a5b4-a4f13f331199",
+        "user_id": "6625ab2afd3b48b1cd25e297",
+        "document_version": 52,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-21T22:40:00.000000Z",
+                  "user_id_string": "6625ab2afd3b48b1cd25e297",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-21T22:40:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-21T23:04:00.000000Z",
+                  "activity_duration_seconds_int": 1440,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 54.249996185303,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 2168,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 1604.509765625,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "f11ea5a9-d1b9-467f-a0b8-6bd12d6fc6fc",
+        "user_id": "66271e84fd3b48b1cd244d53",
+        "document_version": 42,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-22T23:50:00.000000Z",
+                  "user_id_string": "66271e84fd3b48b1cd244d53",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-22T23:50:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-23T00:04:00.000000Z",
+                  "activity_duration_seconds_int": 840,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 31.150001525879,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 1279,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 927.31994628906,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "b178a1c6-b926-4c00-839f-0f92e884d586",
+        "user_id": "66271e86fd3b48b1cd2450f1",
+        "document_version": 47,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-23T00:18:00.000000Z",
+                  "user_id_string": "66271e86fd3b48b1cd2450f1",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-23T00:18:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-23T00:26:00.000000Z",
+                  "activity_duration_seconds_int": 480,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 11.010001182556,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 453,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 327.14999389648,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "15fa3aac-d886-426c-b578-7537001baad5",
+        "user_id": "66271e87fd3b48b1cd2453a0",
+        "document_version": 44,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-23T00:04:00.000000Z",
+                  "user_id_string": "66271e87fd3b48b1cd2453a0",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-23T00:04:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-23T00:18:00.000000Z",
+                  "activity_duration_seconds_int": 840,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 146.92343139648,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 652,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 503.25997924805,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "d3be2634-928b-4d63-8ace-56f8eca3cf57",
+        "user_id": "66271e88fd3b48b1cd245677",
+        "document_version": 63,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-23T02:13:00.000000Z",
+                  "user_id_string": "66271e88fd3b48b1cd245677",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-23T02:13:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-23T02:34:00.000000Z",
+                  "activity_duration_seconds_int": 1260,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 37.790000915527,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 1500,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 1069.0599365234,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "3f711390-9bb8-420c-9212-634312c5206c",
+        "user_id": "662a3a2d40eefde5291b5603",
+        "document_version": 35,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-25T01:54:00.000000Z",
+                  "user_id_string": "662a3a2d40eefde5291b5603",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-25T01:54:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-25T02:00:00.000000Z",
+                  "activity_duration_seconds_int": 360,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 10.219999313354,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 503,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 373.75003051758,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": null,
+                  "hr_minimum_bpm_int": null,
+                  "hr_avg_bpm_int": null,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "ae98c13c-5f1b-42ba-85eb-7a028b69b461",
+        "user_id": "662d2fad40eefde529e8bf61",
+        "document_version": 23,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-27T00:01:00.000000Z",
+                  "user_id_string": "662d2fad40eefde529e8bf61",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-27T00:01:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-27T00:23:00.000000Z",
+                  "activity_duration_seconds_int": 1320,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 35.620002746582,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 1505,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 1081.2099609375,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": 100,
+                  "hr_minimum_bpm_int": 80,
+                  "hr_avg_bpm_int": 89,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "activity_event",
+        "client_uuid": "75b417f2-371b-4d41-b936-4cff4b0ec061",
+        "user_id": "662e907e40eefde529dadcb2",
+        "document_version": 12,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "activity_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2024-04-28T17:51:00.000000Z",
+                  "user_id_string": "662e907e40eefde529dadcb2",
+                  "sources_of_data_array": [
+                    "Withings"
+                  ],
+                  "was_the_user_under_physical_activity_bool": true
+                },
+                "activity": {
+                  "activity_start_datetime_string": "2024-04-28T17:51:00.000000Z",
+                  "activity_end_datetime_string": "2024-04-28T18:00:00.000000Z",
+                  "activity_duration_seconds_int": 540,
+                  "activity_type_name_string": null,
+                  "active_seconds_int": null,
+                  "rest_seconds_int": 0,
+                  "low_intensity_seconds_int": null,
+                  "moderate_intensity_seconds_int": null,
+                  "vigorous_intensity_seconds_int": null,
+                  "inactivity_seconds_int": null,
+                  "activity_level_granular_data_array": [],
+                  "continuous_inactive_periods_int": null,
+                  "activity_strain_level_float": null,
+                  "activity_work_kilojoules_float": null,
+                  "activity_energy_kilojoules_float": null,
+                  "activity_energy_planned_kilojoules_float": null
+                },
+                "calories": {
+                  "calories_net_intake_kcal_float": null,
+                  "calories_expenditure_kcal_float": null,
+                  "calories_net_active_kcal_float": 13.489999771118,
+                  "calories_basal_metabolic_rate_kcal_float": null,
+                  "fat_percentage_of_calories_int": null,
+                  "carbohydrate_percentage_of_calories_int": null,
+                  "protein_percentage_of_calories_int": null
+                },
+                "distance": {
+                  "steps_int": 584,
+                  "steps_granular_data_array": [],
+                  "walked_distance_meters_float": 402.26998901367,
+                  "traveled_distance_meters_float": null,
+                  "traveled_distance_granular_data_array": [],
+                  "floors_climbed_float": null,
+                  "floors_climbed_granular_data_array": [],
+                  "elevation_avg_altitude_meters_float": null,
+                  "elevation_minimum_altitude_meters_float": null,
+                  "elevation_maximum_altitude_meters_float": null,
+                  "elevation_loss_actual_altitude_meters_float": null,
+                  "elevation_gain_actual_altitude_meters_float": null,
+                  "elevation_planned_gain_meters_float": null,
+                  "elevation_granular_data_array": [],
+                  "swimming_num_strokes_float": null,
+                  "swimming_num_laps_int": 0,
+                  "swimming_pool_length_meters_float": 0.0,
+                  "swimming_total_distance_meters_float": null,
+                  "swimming_distance_granular_data_array": []
+                },
+                "heart_rate": {
+                  "hr_maximum_bpm_int": 95,
+                  "hr_minimum_bpm_int": 69,
+                  "hr_avg_bpm_int": 81,
+                  "hr_resting_bpm_int": null,
+                  "hr_granular_data_array": [],
+                  "hrv_avg_rmssd_float": null,
+                  "hrv_avg_sdnn_float": null,
+                  "hrv_sdnn_granular_data_array": [],
+                  "hrv_rmssd_granular_data_array": []
+                },
+                "movement": {
+                  "speed_normalized_meters_per_second_float": null,
+                  "speed_avg_meters_per_second_float": null,
+                  "speed_maximum_meters_per_second_float": null,
+                  "speed_granular_data_array": [],
+                  "velocity_avg_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "velocity_maximum_object": {
+                    "speed_meters_per_second_float": null,
+                    "direction_string": null
+                  },
+                  "pace_avg_min_per_km_float": null,
+                  "pace_maximum_min_per_km_float": null,
+                  "cadence_avg_rpm_float": null,
+                  "cadence_maximum_rpm_float": null,
+                  "cadence_granular_data_array": [],
+                  "torque_avg_newton_meters_float": null,
+                  "torque_maximum_newton_meters_float": null,
+                  "torque_granular_data_array": [],
+                  "lap_granular_data_array": []
+                },
+                "power": {
+                  "power_avg_watts_float": null,
+                  "power_maximum_watts_float": null,
+                  "power_granular_data_array": []
+                },
+                "position": {
+                  "position_start_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_centroid_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_end_object": {
+                    "lat_deg_float": null,
+                    "lng_deg_float": null
+                  },
+                  "position_granular_data_array": [],
+                  "position_polyline_map_data_summary_string": null
+                },
+                "oxygenation": {
+                  "saturation_avg_percentage_int": null,
+                  "saturation_granular_data_array": [],
+                  "vo2max_mL_per_min_per_kg_int": null,
+                  "vo2_granular_data_array": []
+                },
+                "stress": {
+                  "stress_at_rest_duration_seconds_int": null,
+                  "stress_duration_seconds_int": null,
+                  "low_stress_duration_seconds_int": null,
+                  "medium_stress_duration_seconds_int": null,
+                  "high_stress_duration_seconds_int": null,
+                  "tss_granular_data_array": [],
+                  "stress_avg_level_int": null,
+                  "stress_maximum_level_int": null
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      }
+    ],
     "heart_rate_events": [],
     "oxygenation_events": [],
     "stress_events": [],
-    "physical_summaries": []
+    "physical_summaries": [
+      {
+        "version": 2,
+        "data_structure": "physical_summary",
+        "client_uuid": "464bf24f-aafc-48bb-8bfb-be4e3daf3565",
+        "user_id": "6621b43cfd3b48b1cdaabfc2",
+        "document_version": 1,
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "distance": {
+                "steps_int": null,
+                "steps_granular_data_array": [],
+                "active_steps_int": null,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 136.28,
+                "traveled_distance_meters_float": null,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": null,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": null,
+                "elevation_minimum_altitude_meters_float": null,
+                "elevation_maximum_altitude_meters_float": null,
+                "elevation_loss_actual_altitude_meters_float": null,
+                "elevation_gain_actual_altitude_meters_float": null,
+                "elevation_planned_gain_meters_float": null,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": null,
+                "swimming_num_laps_int": null,
+                "swimming_pool_length_meters_float": null,
+                "swimming_total_distance_meters_float": null,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": null,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": null,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 4,
+                "rest_seconds_int": null,
+                "low_intensity_seconds_int": 799,
+                "moderate_intensity_seconds_int": 0,
+                "vigorous_intensity_seconds_int": 4,
+                "inactivity_seconds_int": null,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": null
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": null,
+                "calories_expenditure_kcal_float": 667.23,
+                "calories_net_active_kcal_float": 2.97,
+                "calories_basal_metabolic_rate_kcal_float": null
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": null,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": null,
+                "hrv_avg_sdnn_float": null,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": null,
+                "stress_duration_seconds_int": null,
+                "low_stress_duration_seconds_int": null,
+                "medium_stress_duration_seconds_int": null,
+                "high_stress_duration_seconds_int": null,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": null,
+                "stress_maximum_level_int": null
+              },
+              "metadata": {
+                "datetime_string": "2024-04-18T00:00:00.000000Z",
+                "user_id_string": "6621b43cfd3b48b1cdaabfc2",
+                "sources_of_data_array": [
+                  "Withings"
+                ]
+              },
+              "non_structured_data": []
+            }
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "physical_summary",
+        "client_uuid": "9771ef7a-0c75-473e-8797-9479701a5d9a",
+        "user_id": "6624573cfd3b48b1cda51a28",
+        "document_version": 1,
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "distance": {
+                "steps_int": null,
+                "steps_granular_data_array": [],
+                "active_steps_int": null,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 3192.46,
+                "traveled_distance_meters_float": null,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": null,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": null,
+                "elevation_minimum_altitude_meters_float": null,
+                "elevation_maximum_altitude_meters_float": null,
+                "elevation_loss_actual_altitude_meters_float": null,
+                "elevation_gain_actual_altitude_meters_float": null,
+                "elevation_planned_gain_meters_float": null,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": null,
+                "swimming_num_laps_int": null,
+                "swimming_pool_length_meters_float": null,
+                "swimming_total_distance_meters_float": null,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": null,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": null,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 1860,
+                "rest_seconds_int": null,
+                "low_intensity_seconds_int": 6420,
+                "moderate_intensity_seconds_int": 1860,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": null,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": null
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": null,
+                "calories_expenditure_kcal_float": 1048.49,
+                "calories_net_active_kcal_float": 106.69,
+                "calories_basal_metabolic_rate_kcal_float": null
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": null,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": null,
+                "hrv_avg_sdnn_float": null,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": null,
+                "stress_duration_seconds_int": null,
+                "low_stress_duration_seconds_int": null,
+                "medium_stress_duration_seconds_int": null,
+                "high_stress_duration_seconds_int": null,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": null,
+                "stress_maximum_level_int": null
+              },
+              "metadata": {
+                "datetime_string": "2024-04-20T00:00:00.000000Z",
+                "user_id_string": "6624573cfd3b48b1cda51a28",
+                "sources_of_data_array": [
+                  "Withings"
+                ]
+              },
+              "non_structured_data": []
+            }
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "physical_summary",
+        "client_uuid": "f0a9c0f3-d4d3-488f-b6d0-79af945f2f74",
+        "user_id": "6625a8bbfd3b48b1cd1f9f24",
+        "document_version": 1,
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "distance": {
+                "steps_int": null,
+                "steps_granular_data_array": [],
+                "active_steps_int": null,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 3014.85,
+                "traveled_distance_meters_float": null,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": null,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": null,
+                "elevation_minimum_altitude_meters_float": null,
+                "elevation_maximum_altitude_meters_float": null,
+                "elevation_loss_actual_altitude_meters_float": null,
+                "elevation_gain_actual_altitude_meters_float": null,
+                "elevation_planned_gain_meters_float": null,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": null,
+                "swimming_num_laps_int": null,
+                "swimming_pool_length_meters_float": null,
+                "swimming_total_distance_meters_float": null,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": null,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": null,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 3480,
+                "rest_seconds_int": null,
+                "low_intensity_seconds_int": 2040,
+                "moderate_intensity_seconds_int": 3480,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": null,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": null
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": null,
+                "calories_expenditure_kcal_float": 989.25,
+                "calories_net_active_kcal_float": 96.1,
+                "calories_basal_metabolic_rate_kcal_float": null
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": null,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": null,
+                "hrv_avg_sdnn_float": null,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": null,
+                "stress_duration_seconds_int": null,
+                "low_stress_duration_seconds_int": null,
+                "medium_stress_duration_seconds_int": null,
+                "high_stress_duration_seconds_int": null,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": null,
+                "stress_maximum_level_int": null
+              },
+              "metadata": {
+                "datetime_string": "2024-04-21T00:00:00.000000Z",
+                "user_id_string": "6625a8bbfd3b48b1cd1f9f24",
+                "sources_of_data_array": [
+                  "Withings"
+                ]
+              },
+              "non_structured_data": []
+            }
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "physical_summary",
+        "client_uuid": "a184fed3-be34-4113-a506-1498c684ca4d",
+        "user_id": "66284bbf40eefde5293a73bd",
+        "document_version": 1,
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "distance": {
+                "steps_int": null,
+                "steps_granular_data_array": [],
+                "active_steps_int": null,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 261.17,
+                "traveled_distance_meters_float": null,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": null,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": null,
+                "elevation_minimum_altitude_meters_float": null,
+                "elevation_maximum_altitude_meters_float": null,
+                "elevation_loss_actual_altitude_meters_float": null,
+                "elevation_gain_actual_altitude_meters_float": null,
+                "elevation_planned_gain_meters_float": null,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": null,
+                "swimming_num_laps_int": null,
+                "swimming_pool_length_meters_float": null,
+                "swimming_total_distance_meters_float": null,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": null,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": null,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 0,
+                "rest_seconds_int": null,
+                "low_intensity_seconds_int": 1799,
+                "moderate_intensity_seconds_int": 0,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": null,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": null
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": null,
+                "calories_expenditure_kcal_float": 979.48,
+                "calories_net_active_kcal_float": 9.0,
+                "calories_basal_metabolic_rate_kcal_float": null
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": null,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": null,
+                "hrv_avg_sdnn_float": null,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": null,
+                "stress_duration_seconds_int": null,
+                "low_stress_duration_seconds_int": null,
+                "medium_stress_duration_seconds_int": null,
+                "high_stress_duration_seconds_int": null,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": null,
+                "stress_maximum_level_int": null
+              },
+              "metadata": {
+                "datetime_string": "2024-04-23T00:00:00.000000Z",
+                "user_id_string": "66284bbf40eefde5293a73bd",
+                "sources_of_data_array": [
+                  "Withings"
+                ]
+              },
+              "non_structured_data": []
+            }
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "physical_summary",
+        "client_uuid": "049c8b5e-0628-461c-a243-29242a10d51a",
+        "user_id": "66299d3d40eefde52986d4b6",
+        "document_version": 1,
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "distance": {
+                "steps_int": null,
+                "steps_granular_data_array": [],
+                "active_steps_int": null,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 743.04,
+                "traveled_distance_meters_float": null,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": null,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": null,
+                "elevation_minimum_altitude_meters_float": null,
+                "elevation_maximum_altitude_meters_float": null,
+                "elevation_loss_actual_altitude_meters_float": null,
+                "elevation_gain_actual_altitude_meters_float": null,
+                "elevation_planned_gain_meters_float": null,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": null,
+                "swimming_num_laps_int": null,
+                "swimming_pool_length_meters_float": null,
+                "swimming_total_distance_meters_float": null,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": null,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": null,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 240,
+                "rest_seconds_int": null,
+                "low_intensity_seconds_int": 3059,
+                "moderate_intensity_seconds_int": 240,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": null,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": null
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": null,
+                "calories_expenditure_kcal_float": 1054.82,
+                "calories_net_active_kcal_float": 24.6,
+                "calories_basal_metabolic_rate_kcal_float": null
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": null,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": null,
+                "hrv_avg_sdnn_float": null,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": null,
+                "stress_duration_seconds_int": null,
+                "low_stress_duration_seconds_int": null,
+                "medium_stress_duration_seconds_int": null,
+                "high_stress_duration_seconds_int": null,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": null,
+                "stress_maximum_level_int": null
+              },
+              "metadata": {
+                "datetime_string": "2024-04-24T00:00:00.000000Z",
+                "user_id_string": "66299d3d40eefde52986d4b6",
+                "sources_of_data_array": [
+                  "Withings"
+                ]
+              },
+              "non_structured_data": []
+            }
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "physical_summary",
+        "client_uuid": "78fbeab8-a807-4b25-8889-1e590f5f86aa",
+        "user_id": "662aeebd40eefde529e94c90",
+        "document_version": 1,
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "distance": {
+                "steps_int": null,
+                "steps_granular_data_array": [],
+                "active_steps_int": null,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 362.51,
+                "traveled_distance_meters_float": null,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": null,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": null,
+                "elevation_minimum_altitude_meters_float": null,
+                "elevation_maximum_altitude_meters_float": null,
+                "elevation_loss_actual_altitude_meters_float": null,
+                "elevation_gain_actual_altitude_meters_float": null,
+                "elevation_planned_gain_meters_float": null,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": null,
+                "swimming_num_laps_int": null,
+                "swimming_pool_length_meters_float": null,
+                "swimming_total_distance_meters_float": null,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": null,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": null,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 4,
+                "rest_seconds_int": null,
+                "low_intensity_seconds_int": 2822,
+                "moderate_intensity_seconds_int": 0,
+                "vigorous_intensity_seconds_int": 4,
+                "inactivity_seconds_int": null,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": null
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": null,
+                "calories_expenditure_kcal_float": 1044.9,
+                "calories_net_active_kcal_float": 10.35,
+                "calories_basal_metabolic_rate_kcal_float": null
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": null,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": null,
+                "hrv_avg_sdnn_float": null,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": null,
+                "stress_duration_seconds_int": null,
+                "low_stress_duration_seconds_int": null,
+                "medium_stress_duration_seconds_int": null,
+                "high_stress_duration_seconds_int": null,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": null,
+                "stress_maximum_level_int": null
+              },
+              "metadata": {
+                "datetime_string": "2024-04-25T00:00:00.000000Z",
+                "user_id_string": "662aeebd40eefde529e94c90",
+                "sources_of_data_array": [
+                  "Withings"
+                ]
+              },
+              "non_structured_data": []
+            }
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "physical_summary",
+        "client_uuid": "d9feb642-dfad-4507-affd-bd635be7754c",
+        "user_id": "662c403c40eefde529570e18",
+        "document_version": 1,
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "distance": {
+                "steps_int": null,
+                "steps_granular_data_array": [],
+                "active_steps_int": null,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 152.41,
+                "traveled_distance_meters_float": null,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": null,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": null,
+                "elevation_minimum_altitude_meters_float": null,
+                "elevation_maximum_altitude_meters_float": null,
+                "elevation_loss_actual_altitude_meters_float": null,
+                "elevation_gain_actual_altitude_meters_float": null,
+                "elevation_planned_gain_meters_float": null,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": null,
+                "swimming_num_laps_int": null,
+                "swimming_pool_length_meters_float": null,
+                "swimming_total_distance_meters_float": null,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": null,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": null,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 0,
+                "rest_seconds_int": null,
+                "low_intensity_seconds_int": 1082,
+                "moderate_intensity_seconds_int": 0,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": null,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": null
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": null,
+                "calories_expenditure_kcal_float": 819.31,
+                "calories_net_active_kcal_float": 4.95,
+                "calories_basal_metabolic_rate_kcal_float": null
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": null,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": null,
+                "hrv_avg_sdnn_float": null,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": null,
+                "stress_duration_seconds_int": null,
+                "low_stress_duration_seconds_int": null,
+                "medium_stress_duration_seconds_int": null,
+                "high_stress_duration_seconds_int": null,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": null,
+                "stress_maximum_level_int": null
+              },
+              "metadata": {
+                "datetime_string": "2024-04-26T00:00:00.000000Z",
+                "user_id_string": "662c403c40eefde529570e18",
+                "sources_of_data_array": [
+                  "Withings"
+                ]
+              },
+              "non_structured_data": []
+            }
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "physical_summary",
+        "client_uuid": "d4d43494-aedf-4e0b-8aaa-7601fb5e717d",
+        "user_id": "662d91bb40eefde5293ebbc3",
+        "document_version": 1,
+        "physical_health": {
+          "summary": {
+            "physical_summary": {
+              "distance": {
+                "steps_int": null,
+                "steps_granular_data_array": [],
+                "active_steps_int": null,
+                "active_steps_granular_data_array": [],
+                "walked_distance_meters_float": 2059.01,
+                "traveled_distance_meters_float": null,
+                "traveled_distance_granular_data_array": [],
+                "floors_climbed_float": null,
+                "floors_climbed_granular_data_array": [],
+                "elevation_avg_altitude_meters_float": null,
+                "elevation_minimum_altitude_meters_float": null,
+                "elevation_maximum_altitude_meters_float": null,
+                "elevation_loss_actual_altitude_meters_float": null,
+                "elevation_gain_actual_altitude_meters_float": null,
+                "elevation_planned_gain_meters_float": null,
+                "elevation_granular_data_array": [],
+                "swimming_num_strokes_float": null,
+                "swimming_num_laps_int": null,
+                "swimming_pool_length_meters_float": null,
+                "swimming_total_distance_meters_float": null,
+                "swimming_distance_granular_data_array": []
+              },
+              "oxygenation": {
+                "saturation_avg_percentage_int": null,
+                "saturation_granular_data_array": [],
+                "vo2max_mL_per_min_per_kg_int": null,
+                "vo2_granular_data_array": []
+              },
+              "activity": {
+                "active_seconds_int": 1141,
+                "rest_seconds_int": null,
+                "low_intensity_seconds_int": 3180,
+                "moderate_intensity_seconds_int": 1141,
+                "vigorous_intensity_seconds_int": 0,
+                "inactivity_seconds_int": null,
+                "activity_level_granular_data_array": [],
+                "continuous_inactive_periods_int": null
+              },
+              "calories": {
+                "calories_net_intake_kcal_float": null,
+                "calories_expenditure_kcal_float": 994.07,
+                "calories_net_active_kcal_float": 68.13,
+                "calories_basal_metabolic_rate_kcal_float": null
+              },
+              "heart_rate": {
+                "hr_maximum_bpm_int": 0,
+                "hr_minimum_bpm_int": 0,
+                "hr_avg_bpm_int": 0,
+                "hr_resting_bpm_int": null,
+                "hr_granular_data_array": [],
+                "hrv_avg_rmssd_float": null,
+                "hrv_avg_sdnn_float": null,
+                "hrv_sdnn_granular_data_array": [],
+                "hrv_rmssd_granular_data_array": []
+              },
+              "stress": {
+                "stress_at_rest_duration_seconds_int": null,
+                "stress_duration_seconds_int": null,
+                "low_stress_duration_seconds_int": null,
+                "medium_stress_duration_seconds_int": null,
+                "high_stress_duration_seconds_int": null,
+                "stress_granular_data_array": [],
+                "stress_avg_level_int": null,
+                "stress_maximum_level_int": null
+              },
+              "metadata": {
+                "datetime_string": "2024-04-27T00:00:00.000000Z",
+                "user_id_string": "662d91bb40eefde5293ebbc3",
+                "sources_of_data_array": [
+                  "Withings"
+                ]
+              },
+              "non_structured_data": []
+            }
+          }
+        }
+      }
+    ]
   },
   "sleep_health": {
     "sleep_summaries": []
