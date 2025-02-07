@@ -1,7 +1,7 @@
 {
   "data_structure": "ROOKConnect_Android_dataset",
   "version": 2,
-  "created_at": "2025-01-29T00:32:42.311653Z",
+  "created_at": "2025-02-07T18:10:43.344455Z",
   "body_health": {
     "blood_glucose_events": [],
     "blood_pressure_events": [],
@@ -19,6 +19,848 @@
     "heart_rate_events": [],
     "oxygenation_events": [],
     "stress_events": [],
+    "steps_events": [
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "91093dcd-9c0b-4692-9f0c-9bf4f1799216",
+        "user_id": "677e13c7227dd202e21fdc08",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-07T23:57:25.917000-06:00",
+                  "user_id_string": "677e13c7227dd202e21fdc08",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 920
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "7c18421c-bbf1-4e80-bbb8-55c6ad64899c",
+        "user_id": "678027ea227dd202e2303848",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-09T21:47:52.208000+02:00",
+                  "user_id_string": "678027ea227dd202e2303848",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 955
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "9f7c6ac1-6839-495a-b3fb-bcf225c8f8fe",
+        "user_id": "6780fcac227dd202e2b694ea",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-10T12:55:38.243000+02:00",
+                  "user_id_string": "6780fcac227dd202e2b694ea",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 640
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "0f41cf5f-3dbb-41f3-be33-7a7ed1abe534",
+        "user_id": "678180b0227dd202e2b7760e",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-10T14:18:54.486000-06:00",
+                  "user_id_string": "678180b0227dd202e2b7760e",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 25
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "b6184232-64c6-4e83-ab21-db56d832ab18",
+        "user_id": "67827dcf227dd202e2b8f983",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-11T16:18:53.089000+02:00",
+                  "user_id_string": "67827dcf227dd202e2b8f983",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 142
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "d5fc5279-c1b9-4001-8bd8-5662cceba1ea",
+        "user_id": "67857c6d227dd202e2beaad8",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-13T22:49:47.306000+02:00",
+                  "user_id_string": "67857c6d227dd202e2beaad8",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 949
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "e006f045-08a4-46b9-81a1-8ee7c63723da",
+        "user_id": "678a7be5227dd202e2c96c6d",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-17T15:48:52.131000Z",
+                  "user_id_string": "678a7be5227dd202e2c96c6d",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 8855
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "5d6df17a-4ace-4f91-8429-bf4fa6d1ef55",
+        "user_id": "678aad59227dd202e2c9be7d",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-17T21:19:52.035000+02:00",
+                  "user_id_string": "678aad59227dd202e2c9be7d",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 676
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "9b4e91fd-1e7a-4661-9455-dca4f62f72b1",
+        "user_id": "678f2226227dd202e2d059dd",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-21T06:27:17.132000+02:00",
+                  "user_id_string": "678f2226227dd202e2d059dd",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 10
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "0b1489df-c61f-4a08-960f-b641ee76bb65",
+        "user_id": "678f51ab227dd202e2d08e23",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-21T09:50:01.770000+02:00",
+                  "user_id_string": "678f51ab227dd202e2d08e23",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 139
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "90918be3-7fbc-4a40-993d-287b23402bf4",
+        "user_id": "679149fa227dd202e2d5ca5d",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-22T21:41:45.846000+02:00",
+                  "user_id_string": "679149fa227dd202e2d5ca5d",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 6094
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "61afdbce-33da-4028-af3d-b49158e820fe",
+        "user_id": "6792ac8c227dd202e2d7eef2",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-23T22:54:35.436000+02:00",
+                  "user_id_string": "6792ac8c227dd202e2d7eef2",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 6253
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "a8abdbb5-1b8c-4c08-8b3c-a4daced7a61f",
+        "user_id": "6793b03e227dd202e2d9d0f8",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-24T17:22:37.120000+02:00",
+                  "user_id_string": "6793b03e227dd202e2d9d0f8",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 9276
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "dcfc4d9e-bef4-478c-b604-1e463a674adb",
+        "user_id": "67951063799f2f195fcad939",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-25T21:55:06.713000+05:30",
+                  "user_id_string": "67951063799f2f195fcad939",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 3924
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "def85202-fe68-4736-bed2-e3959bec88a0",
+        "user_id": "67966d3d799f2f195fcc91a9",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-26T11:13:33.156000-06:00",
+                  "user_id_string": "67966d3d799f2f195fcc91a9",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 13
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "4b66cd89-47d6-4ec7-a958-e49136667763",
+        "user_id": "6796ea29799f2f195fcd634e",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-26T20:06:32.860000-06:00",
+                  "user_id_string": "6796ea29799f2f195fcd634e",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 135
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "32843aea-72e0-44dc-80cd-4e9a05d8ea49",
+        "user_id": "679717ce799f2f195fcd93a3",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-27T10:51:16.992000+05:30",
+                  "user_id_string": "679717ce799f2f195fcd93a3",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 1369
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "33ca3be8-2483-437e-a609-881de1ca4267",
+        "user_id": "67971a4a799f2f195fcd96dc",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-27T07:31:52.126000+02:00",
+                  "user_id_string": "67971a4a799f2f195fcd96dc",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 277
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "ef1aaf39-79da-4e7b-be83-7dd283d4a04e",
+        "user_id": "67984919799f2f195fcf683b",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-28T05:03:52.520000+02:00",
+                  "user_id_string": "67984919799f2f195fcf683b",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 10
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "58d5259d-1da3-4cd7-a376-dbd5e06dcfee",
+        "user_id": "679869bc799f2f195fcf8cce",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-28T07:23:07.550000+02:00",
+                  "user_id_string": "679869bc799f2f195fcf8cce",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 10
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "12b399c3-d22d-4a67-9389-a9957e2fab61",
+        "user_id": "679af06b799f2f195fd35f43",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-29T21:22:18.291000-06:00",
+                  "user_id_string": "679af06b799f2f195fd35f43",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 30
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "4caa7c86-0cb3-43bb-970a-af8219dafe4d",
+        "user_id": "679cc293799f2f195fd71a59",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-31T12:31:13.778000Z",
+                  "user_id_string": "679cc293799f2f195fd71a59",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 3034
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "fca9d7b4-e1db-4f13-9cf8-80ba0774588d",
+        "user_id": "679d4cdb93e7cdac3e54d622",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-31T16:21:14.033000-06:00",
+                  "user_id_string": "679d4cdb93e7cdac3e54d622",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 2407
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "11c744d5-1777-42b0-af3a-16c0d033c8d8",
+        "user_id": "679d54e393e7cdac3e54e280",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-01-31T14:55:30.562000-08:00",
+                  "user_id_string": "679d54e393e7cdac3e54e280",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 1360
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "3a4d64b5-7e87-4f76-9507-a06798638ee0",
+        "user_id": "679e103793e7cdac3e560377",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-02-01T06:14:46.130000-06:00",
+                  "user_id_string": "679e103793e7cdac3e560377",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 87
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "835a003d-af0d-46ee-a937-cb0f3ba1a0b3",
+        "user_id": "679e927693e7cdac3e570239",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-02-01T15:30:29.483000-06:00",
+                  "user_id_string": "679e927693e7cdac3e570239",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 1188
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "cfc5dfac-d340-4b12-9f72-a97dd08456dc",
+        "user_id": "679e953093e7cdac3e5705b1",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-02-01T15:42:04.727000-06:00",
+                  "user_id_string": "679e953093e7cdac3e5705b1",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 725
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "001ce11c-1e39-48ae-8008-0333133aeee0",
+        "user_id": "679f547e93e7cdac3e5815cd",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-02-02T13:18:20.715000+02:00",
+                  "user_id_string": "679f547e93e7cdac3e5815cd",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 555
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "485e9e5e-7610-4006-bd99-8abed6a305f5",
+        "user_id": "67a3442c93e7cdac3e26cefd",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-02-05T10:57:47.166000Z",
+                  "user_id_string": "67a3442c93e7cdac3e26cefd",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 138
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "a2e28c68-37da-44b8-8056-b6c1b909ac1e",
+        "user_id": "67a3ae3193e7cdac3e291871",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-02-05T12:30:08.093000-06:00",
+                  "user_id_string": "67a3ae3193e7cdac3e291871",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 290
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      }
+    ],
     "physical_summaries": []
   },
   "sleep_health": {

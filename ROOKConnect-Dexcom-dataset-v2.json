@@ -1,0 +1,28 @@
+{
+  "data_structure": "ROOKConnect_Dexcom_dataset",
+  "version": 2,
+  "created_at": "2025-02-07T18:11:22.206227Z",
+  "body_health": {
+    "blood_glucose_events": [],
+    "blood_pressure_events": [],
+    "body_metrics_events": [],
+    "heart_rate_events": [],
+    "hydration_events": [],
+    "mood_events": [],
+    "nutrition_events": [],
+    "oxygenation_events": [],
+    "temperature_events": [],
+    "body_summaries": []
+  },
+  "physical_health": {
+    "activity_events": [],
+    "heart_rate_events": [],
+    "oxygenation_events": [],
+    "stress_events": [],
+    "steps_events": [],
+    "physical_summaries": []
+  },
+  "sleep_health": {
+    "sleep_summaries": []
+  }
+}
