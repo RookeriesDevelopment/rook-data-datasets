@@ -1,9 +1,9 @@
 # ROOK-DATASETS
 
-Last update: 2025-01-28
+Last update: 2025-04-28
 
 ##
-In this [repository](https://github.com/RookeriesDevelopment/rook-data-datasets), you can find examples of the data structures that ROOK manages, grouped by the data source that provides the information. In this version, we have data from Fitbit, Garmin, Oura, Polar, and Whoop.
+In this [repository](https://github.com/RookeriesDevelopment/rook-data-datasets), you can find examples of the data structures that ROOK manages, grouped by the data source that provides the information. In this version, we have data from Fitbit, Oura, Whoop, Garmin, Polar, Withings, Apple Health, Health Connect, Android.
 
 ### Available Data Structures
 The detailed definitions of each of the structures are provided in the [ROOK](https://docs.tryrook.io/docs/rookconnect/data-structure) documentation. With regard to the information available in this repository, the following data can be found:
@@ -15,59 +15,240 @@ The detailed definitions of each of the structures are provided in the [ROOK](ht
   <tr>
     <th class="tg-c3ow" rowspan="2">Health Pilar</th>
     <th class="tg-c3ow" rowspan="2">Data Structure</th>
-    <th class="tg-c3ow" colspan="5">Source of Data</th>
+    <th class="tg-c3ow" colspan="9">Source of Data</th>
   </tr>
   <tr>
     <th class="tg-c3ow">Fitbit</th>
-    <th class="tg-c3ow">Garmin</th>
     <th class="tg-c3ow">Oura</th>
-    <th class="tg-c3ow">Polar</th>
     <th class="tg-c3ow">Whoop</th>
+    <th class="tg-c3ow">Garmin</th>
+    <th class="tg-c3ow">Polar</th>
+    <th class="tg-c3ow">Withings</th>
+    <th class="tg-c3ow">Apple Health</th>
+    <th class="tg-c3ow">Health Connect</th>
+    <th class="tg-c3ow">Android</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-c3ow" rowspan="2">Body Health</td>
-    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api#tag/ROOK-greater-Connect-greater-Body-Health/paths/~1v2~1processed_data~1body_health~1events~1oxygenation/get">Oxygenation Events</a></td>
-    <td class="tg-c3ow">✖️</td>
-    <td class="tg-c3ow">✖️</td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✖️</td>
-    <td class="tg-c3ow">✖️</td>
+    <td class="tg-c3ow" rowspan="10">Body Health</td>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Body Metrics Event</a></td>
+    <td class="tg-c3ow">✖️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✖️</td> <!-- Oura -->
+    <td class="tg-c3ow">✖️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✔️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✖️</td> <!-- Polar -->
+    <td class="tg-c3ow">✔️</td> <!-- Withings -->
+    <td class="tg-c3ow">✔️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✖️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
   </tr>
   <tr>
-    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api#tag/ROOK-greater-Connect-greater-Body-Health/paths/~1v2~1processed_data~1body_health~1summary/get">Body Summaries</a></td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✖️</td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✔️</td>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Heart Rate Event</a></td>
+    <td class="tg-c3ow">✖️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✖️</td> <!-- Oura -->
+    <td class="tg-c3ow">✖️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✖️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✖️</td> <!-- Polar -->
+    <td class="tg-c3ow">✖️</td> <!-- Withings -->
+    <td class="tg-c3ow">✔️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✔️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
   </tr>
   <tr>
-    <td class="tg-c3ow" rowspan="2">Physical Health</td>
-    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api#tag/ROOK-greater-Connect-greater-Physical-Health/paths/~1v2~1processed_data~1physical_health~1events~1activity/get">Activity Events</a></td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✔️</td>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Oxygenation Event</a></td>
+    <td class="tg-c3ow">✖️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✔️</td> <!-- Oura -->
+    <td class="tg-c3ow">✖️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✖️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✖️</td> <!-- Polar -->
+    <td class="tg-c3ow">✖️</td> <!-- Withings -->
+    <td class="tg-c3ow">✔️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✔️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
   </tr>
   <tr>
-    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api#tag/ROOK-greater-Connect-greater-Physical-Health/paths/~1v2~1processed_data~1physical_health~1summary/get">Physical Summaries</a></td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✔️</td>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Nutrition Event</a></td>
+    <td class="tg-c3ow">✖️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✖️</td> <!-- Oura -->
+    <td class="tg-c3ow">✖️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✖️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✖️</td> <!-- Polar -->
+    <td class="tg-c3ow">✖️</td> <!-- Withings -->
+    <td class="tg-c3ow">✖️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✖️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Mood Event</a></td>
+    <td class="tg-c3ow">✖️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✖️</td> <!-- Oura -->
+    <td class="tg-c3ow">✖️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✖️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✖️</td> <!-- Polar -->
+    <td class="tg-c3ow">✖️</td> <!-- Withings -->
+    <td class="tg-c3ow">✖️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✖️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Hydration Event</a></td>
+    <td class="tg-c3ow">✖️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✖️</td> <!-- Oura -->
+    <td class="tg-c3ow">✖️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✖️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✖️</td> <!-- Polar -->
+    <td class="tg-c3ow">✖️</td> <!-- Withings -->
+    <td class="tg-c3ow">✖️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✖️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Blood Glucose Event</a></td>
+    <td class="tg-c3ow">✖️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✖️</td> <!-- Oura -->
+    <td class="tg-c3ow">✖️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✖️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✖️</td> <!-- Polar -->
+    <td class="tg-c3ow">✖️</td> <!-- Withings -->
+    <td class="tg-c3ow">✔️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✖️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Blood Pressure Event</a></td>
+    <td class="tg-c3ow">✖️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✖️</td> <!-- Oura -->
+    <td class="tg-c3ow">✖️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✖️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✖️</td> <!-- Polar -->
+    <td class="tg-c3ow">✔️</td> <!-- Withings -->
+    <td class="tg-c3ow">✔️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✖️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
+  </tr>
+
+  <tr>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Temperature Event</a></td>
+    <td class="tg-c3ow">✖️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✖️</td> <!-- Oura -->
+    <td class="tg-c3ow">✖️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✖️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✖️</td> <!-- Polar -->
+    <td class="tg-c3ow">✔️</td> <!-- Withings -->
+    <td class="tg-c3ow">✔️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✖️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Body Summary</a></td>
+    <td class="tg-c3ow">✔️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✔️</td> <!-- Oura -->
+    <td class="tg-c3ow">✔️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✖️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✔️</td> <!-- Polar -->
+    <td class="tg-c3ow">✔️</td> <!-- Withings -->
+    <td class="tg-c3ow">✔️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✔️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
+  </tr>
+  <tr>
+    <td class="tg-c3ow" rowspan="7">Physical Health</td>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Activity Event</a></td>
+    <td class="tg-c3ow">✔️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✔️</td> <!-- Oura -->
+    <td class="tg-c3ow">✔️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✔️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✔️</td> <!-- Polar -->
+    <td class="tg-c3ow">✔️</td> <!-- Withings -->
+    <td class="tg-c3ow">✔️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✔️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Heart Rate Event</a></td>
+    <td class="tg-c3ow">✖️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✖️</td> <!-- Oura -->
+    <td class="tg-c3ow">✖️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✖️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✖️</td> <!-- Polar -->
+    <td class="tg-c3ow">✔️</td> <!-- Withings -->
+    <td class="tg-c3ow">✔️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✔️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Oxygenation Event</a></td>
+    <td class="tg-c3ow">✖️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✖️</td> <!-- Oura -->
+    <td class="tg-c3ow">✖️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✔️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✖️</td> <!-- Polar -->
+    <td class="tg-c3ow">✖️</td> <!-- Withings -->
+    <td class="tg-c3ow">✔️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✖️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Stress Event</a></td>
+    <td class="tg-c3ow">✖️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✖️</td> <!-- Oura -->
+    <td class="tg-c3ow">✖️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✖️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✖️</td> <!-- Polar -->
+    <td class="tg-c3ow">✖️</td> <!-- Withings -->
+    <td class="tg-c3ow">✖️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✖️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Steps Event</a></td>
+    <td class="tg-c3ow">✔️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✔️</td> <!-- Oura -->
+    <td class="tg-c3ow">✖️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✔️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✔️</td> <!-- Polar -->
+    <td class="tg-c3ow">✔️</td> <!-- Withings -->
+    <td class="tg-c3ow">✔️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✔️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✔️</td> <!-- Android -->
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Calories Event</a></td>
+    <td class="tg-c3ow">✖️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✖️</td> <!-- Oura -->
+    <td class="tg-c3ow">✖️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✖️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✖️</td> <!-- Polar -->
+    <td class="tg-c3ow">✖️</td> <!-- Withings -->
+    <td class="tg-c3ow">✔️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✔️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Physical Summary</a></td>
+    <td class="tg-c3ow">✔️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✔️</td> <!-- Oura -->
+    <td class="tg-c3ow">✖️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✔️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✔️</td> <!-- Polar -->
+    <td class="tg-c3ow">✔️</td> <!-- Withings -->
+    <td class="tg-c3ow">✔️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✔️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
   </tr>
   <tr>
     <td class="tg-c3ow">Sleep Health</td>
-    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api#tag/ROOK-greater-Connect-greater-Sleep-Health/paths/~1v2~1processed_data~1sleep_health~1summary/get">Sleep Summaries</a></td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✔️</td>
-    <td class="tg-c3ow">✔️</td>
+    <td class="tg-c3ow"><a href="https://docs.tryrook.io/api">Sleep Summary</a></td>
+    <td class="tg-c3ow">✔️</td> <!-- Fitbit -->
+    <td class="tg-c3ow">✔️</td> <!-- Oura -->
+    <td class="tg-c3ow">✔️</td> <!-- Whoop -->
+    <td class="tg-c3ow">✔️</td> <!-- Garmin -->
+    <td class="tg-c3ow">✔️</td> <!-- Polar -->
+    <td class="tg-c3ow">✔️</td> <!-- Withings -->
+    <td class="tg-c3ow">✔️</td> <!-- Apple Health -->
+    <td class="tg-c3ow">✔️</td> <!-- Health Connect -->
+    <td class="tg-c3ow">✖️</td> <!-- Android -->
   </tr>
 </tbody>
 </table>
