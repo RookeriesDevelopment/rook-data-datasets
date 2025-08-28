@@ -1,7 +1,7 @@
 {
-  "data_structure": "ROOKConnect_Dexcom_dataset",
+  "data_structure": "ROOKConnect_Samsung Health_dataset",
   "version": 2,
-  "created_at": "2025-08-28T22:34:13.150945Z",
+  "created_at": "2025-08-28T22:35:12.373763Z",
   "body_health": {
     "blood_glucose_events": [],
     "blood_pressure_events": [],
