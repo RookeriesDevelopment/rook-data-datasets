@@ -1,7 +1,7 @@
 {
   "data_structure": "ROOKConnect_Android_dataset",
   "version": 2,
-  "created_at": "2025-08-28T22:33:13.478891Z",
+  "created_at": "2025-09-25T23:45:06.658253Z",
   "body_health": {
     "blood_glucose_events": [],
     "blood_pressure_events": [],
@@ -23,8 +23,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "ee6cd7d9-256d-4917-9dbd-03341d750d9e",
-        "user_id": "6897ffdd13676982648d24eb",
+        "client_uuid": "c349b1ea-88cf-4d17-82a3-97da60b79c4a",
+        "user_id": "68d31c71027e3103f9e6a3c0",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -32,15 +32,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-09T21:11:20.380000-05:00",
-                  "user_id_string": "6897ffdd13676982648d24eb",
+                  "datetime_string": "2025-09-23T17:17:19.061000-05:00",
+                  "user_id_string": "68d31c71027e3103f9e6a3c0",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 3156
+                  "accumulated_steps_int": 5477
                 },
                 "non_structured_data_array": []
               }
@@ -51,8 +51,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "0ed41d88-dbc0-4816-92ed-2f7142d89c67",
-        "user_id": "68aee6e532145e595d6b65f7",
+        "client_uuid": "fb229640-9107-4a1b-9d66-61664ea4cd88",
+        "user_id": "68c84769c5984fd7b7970e5a",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -60,15 +60,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-27T13:07:16.488000+02:00",
-                  "user_id_string": "68aee6e532145e595d6b65f7",
+                  "datetime_string": "2025-09-15T12:05:42.171000-05:00",
+                  "user_id_string": "68c84769c5984fd7b7970e5a",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 1809
+                  "accumulated_steps_int": 10
                 },
                 "non_structured_data_array": []
               }
@@ -79,8 +79,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "b05510b4-44fc-4dde-b7d3-f6fd12ad1248",
-        "user_id": "689c8af5b92886957e45e2fa",
+        "client_uuid": "fea9327b-1744-4320-9cc6-9ceadc60645c",
+        "user_id": "68d193be5e565b6fc8250fea",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -88,15 +88,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-13T18:24:11.728000+05:30",
-                  "user_id_string": "689c8af5b92886957e45e2fa",
+                  "datetime_string": "2025-09-22T13:21:51.179000-05:00",
+                  "user_id_string": "68d193be5e565b6fc8250fea",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 5016
+                  "accumulated_steps_int": 1383
                 },
                 "non_structured_data_array": []
               }
@@ -107,8 +107,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "444c5a71-1282-4eb0-a58b-594cd2d24f66",
-        "user_id": "6898edf7dc5b27e17cfb4273",
+        "client_uuid": "7cefd18b-5252-4a56-9154-40969d20cdc7",
+        "user_id": "68bf3627a5096a16bc6d22f8",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -116,15 +116,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-10T15:07:28.648000-04:00",
-                  "user_id_string": "6898edf7dc5b27e17cfb4273",
+                  "datetime_string": "2025-09-08T15:01:42.424000-05:00",
+                  "user_id_string": "68bf3627a5096a16bc6d22f8",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 628
+                  "accumulated_steps_int": 472
                 },
                 "non_structured_data_array": []
               }
@@ -135,8 +135,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "9e3fdcdb-d9bb-4cc7-9c9f-7558b199d16b",
-        "user_id": "688e3babbf38d907adf139dd",
+        "client_uuid": "649a91d1-bf98-401f-a75d-23b9a72ab6e1",
+        "user_id": "68b516ce5c0049f3b06a8217",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -144,15 +144,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-02T18:24:10.723000+02:00",
-                  "user_id_string": "688e3babbf38d907adf139dd",
+                  "datetime_string": "2025-08-31T22:45:18.825000-05:00",
+                  "user_id_string": "68b516ce5c0049f3b06a8217",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 338
+                  "accumulated_steps_int": 1
                 },
                 "non_structured_data_array": []
               }
@@ -163,8 +163,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "1b2432bf-cd58-41e3-87d1-92c635fe9898",
-        "user_id": "688ec9c84f9f889f974c6872",
+        "client_uuid": "c77f05f3-78cd-4f51-9846-ff61cc013759",
+        "user_id": "68b50157e963e4a4c38c960e",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -172,15 +172,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-02T21:30:31.145000-05:00",
-                  "user_id_string": "688ec9c84f9f889f974c6872",
+                  "datetime_string": "2025-08-31T21:13:42.991000-05:00",
+                  "user_id_string": "68b50157e963e4a4c38c960e",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 2241
+                  "accumulated_steps_int": 45
                 },
                 "non_structured_data_array": []
               }
@@ -191,8 +191,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "08b153bb-563a-4341-8905-6df24148969d",
-        "user_id": "689060a50c1789c758cf66be",
+        "client_uuid": "cf663aac-346f-4961-a8dc-b98ba75d9536",
+        "user_id": "68bf8b6370246f79008cf938",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -200,15 +200,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-04T03:26:28.718000-04:00",
-                  "user_id_string": "689060a50c1789c758cf66be",
+                  "datetime_string": "2025-09-08T21:05:23.394000-05:00",
+                  "user_id_string": "68bf8b6370246f79008cf938",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 11
+                  "accumulated_steps_int": 4019
                 },
                 "non_structured_data_array": []
               }
@@ -219,8 +219,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "ad3ccf4a-af4c-4853-afb7-118f26957074",
-        "user_id": "68965da856f3bca11dbf8df4",
+        "client_uuid": "9f855351-923a-4d69-8691-a170b2bd0c5b",
+        "user_id": "68b1e3fcdb036ca803c18457",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -228,15 +228,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-08T22:27:18.765000+02:00",
-                  "user_id_string": "68965da856f3bca11dbf8df4",
+                  "datetime_string": "2025-08-29T12:31:39.057000-05:00",
+                  "user_id_string": "68b1e3fcdb036ca803c18457",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 726
+                  "accumulated_steps_int": 648
                 },
                 "non_structured_data_array": []
               }
@@ -247,8 +247,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "c3374e3d-3b45-4efd-9d14-f0eef419cfcf",
-        "user_id": "689f1c8d13880839bc2c182f",
+        "client_uuid": "12eaed48-e98c-4450-9709-51ce0cada0fe",
+        "user_id": "68bb53a23b471d293e68eaa5",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -256,15 +256,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-15T05:39:56.509000-06:00",
-                  "user_id_string": "689f1c8d13880839bc2c182f",
+                  "datetime_string": "2025-09-05T16:18:25.918000-05:00",
+                  "user_id_string": "68bb53a23b471d293e68eaa5",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 39
+                  "accumulated_steps_int": 4231
                 },
                 "non_structured_data_array": []
               }
@@ -275,8 +275,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "8a8f2738-aa11-4eaf-97fb-34a8379c6381",
-        "user_id": "688f8021f6d165820410734e",
+        "client_uuid": "edef6ab2-bb6c-4fc8-8596-f05a0a8305e8",
+        "user_id": "68c1786ef851c12eddcd43f3",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -284,15 +284,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-03T20:58:32.750000+05:30",
-                  "user_id_string": "688f8021f6d165820410734e",
+                  "datetime_string": "2025-09-10T08:09:01.530000-05:00",
+                  "user_id_string": "68c1786ef851c12eddcd43f3",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 1626
+                  "accumulated_steps_int": 557
                 },
                 "non_structured_data_array": []
               }
@@ -303,8 +303,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "ee2365e3-56a8-4a97-af56-180fc298d98f",
-        "user_id": "689c0c68a87d87a0e9320bba",
+        "client_uuid": "532898d0-e691-42f2-92dd-2c4762b65664",
+        "user_id": "68cc035fab4778cfce2217f6",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -312,15 +312,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-12T21:54:15.591000-06:00",
-                  "user_id_string": "689c0c68a87d87a0e9320bba",
+                  "datetime_string": "2025-09-18T08:04:32.500000-05:00",
+                  "user_id_string": "68cc035fab4778cfce2217f6",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 303
+                  "accumulated_steps_int": 13
                 },
                 "non_structured_data_array": []
               }
@@ -331,8 +331,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "5fa74ade-ced3-491a-a0dc-a53915051c54",
-        "user_id": "68a93997f92530c4b9d37da9",
+        "client_uuid": "f2d6db92-c7ed-4b2b-8173-13f20be7bf91",
+        "user_id": "68d2d1233a58458337360c23",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -340,15 +340,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-22T22:46:31.330000-05:00",
-                  "user_id_string": "68a93997f92530c4b9d37da9",
+                  "datetime_string": "2025-09-23T09:56:01.881000-07:00",
+                  "user_id_string": "68d2d1233a58458337360c23",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 14771
+                  "accumulated_steps_int": 284
                 },
                 "non_structured_data_array": []
               }
@@ -359,8 +359,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "1955102a-1f2c-4434-8384-06ad0f4790fd",
-        "user_id": "68a5bd3ee496df152ada66c9",
+        "client_uuid": "d157895b-bead-4cf7-ad23-524a593be9fc",
+        "user_id": "68c343e40705194d18d46856",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -368,15 +368,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-20T06:16:20.630000-06:00",
-                  "user_id_string": "68a5bd3ee496df152ada66c9",
+                  "datetime_string": "2025-09-11T15:49:23.377000-06:00",
+                  "user_id_string": "68c343e40705194d18d46856",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 55
+                  "accumulated_steps_int": 1495
                 },
                 "non_structured_data_array": []
               }
@@ -387,8 +387,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "ab946e97-0c91-4cc7-81b7-ca9084863893",
-        "user_id": "689f095c4e656f9f03dfea6b",
+        "client_uuid": "6ae20e5b-2379-431f-aa2c-381965658188",
+        "user_id": "68c05e74e1289dcbf09501b8",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -396,15 +396,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-15T05:18:03.706000-05:00",
-                  "user_id_string": "689f095c4e656f9f03dfea6b",
+                  "datetime_string": "2025-09-09T11:05:55.618000-06:00",
+                  "user_id_string": "68c05e74e1289dcbf09501b8",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 39
+                  "accumulated_steps_int": 32
                 },
                 "non_structured_data_array": []
               }
@@ -415,8 +415,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "12f2b549-1978-4285-9e06-721e92c2c18d",
-        "user_id": "689cbd087290de30958eece9",
+        "client_uuid": "fa15c423-0d72-4132-a583-3f4061acd326",
+        "user_id": "68c99f09f18456a5a70de409",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -424,15 +424,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-13T21:57:53.625000+05:30",
-                  "user_id_string": "689cbd087290de30958eece9",
+                  "datetime_string": "2025-09-16T11:31:53.316000-06:00",
+                  "user_id_string": "68c99f09f18456a5a70de409",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 7363
+                  "accumulated_steps_int": 792
                 },
                 "non_structured_data_array": []
               }
@@ -443,8 +443,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "49079448-4393-4658-8e6a-4f46af8f07cb",
-        "user_id": "68abe3d7ae08dc02eeb71292",
+        "client_uuid": "cb710440-21d4-4d46-a57a-1556cac0667f",
+        "user_id": "68c8ca7ad1bd0203fdf9d904",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -452,15 +452,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-24T21:17:26.044000-07:00",
-                  "user_id_string": "68abe3d7ae08dc02eeb71292",
+                  "datetime_string": "2025-09-15T21:24:58.052000-05:00",
+                  "user_id_string": "68c8ca7ad1bd0203fdf9d904",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 21
+                  "accumulated_steps_int": 4005
                 },
                 "non_structured_data_array": []
               }
@@ -471,8 +471,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "aab3ccbb-1c4f-4d84-aefe-add119133597",
-        "user_id": "68a72d74ecf3cb3f00416082",
+        "client_uuid": "7b544f36-9797-4fde-8b83-06843260207b",
+        "user_id": "68cb25c9ce12950e7c106873",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -480,15 +480,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-21T16:30:11.207000+02:00",
-                  "user_id_string": "68a72d74ecf3cb3f00416082",
+                  "datetime_string": "2025-09-17T16:19:04.292000-05:00",
+                  "user_id_string": "68cb25c9ce12950e7c106873",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 1481
+                  "accumulated_steps_int": 1885
                 },
                 "non_structured_data_array": []
               }
@@ -499,8 +499,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "8efe875f-27b1-4fc3-94f9-736dbe45e987",
-        "user_id": "688862f0203d7d2157ce6878",
+        "client_uuid": "224d6634-1e3d-40c3-a692-78947d44400b",
+        "user_id": "68d0473f9da34f015173c12c",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -508,15 +508,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-07-28T23:58:07.210000-06:00",
-                  "user_id_string": "688862f0203d7d2157ce6878",
+                  "datetime_string": "2025-09-21T13:43:10.317000-05:00",
+                  "user_id_string": "68d0473f9da34f015173c12c",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 326
+                  "accumulated_steps_int": 3614
                 },
                 "non_structured_data_array": []
               }
@@ -527,8 +527,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "30ab577e-f33f-4610-89fc-1c61d13d85de",
-        "user_id": "6890124d6ec3d60ba5835b30",
+        "client_uuid": "30b88a62-6ae9-420b-b1f2-ceff6280e43c",
+        "user_id": "68c1b5241be49b995377012b",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -536,15 +536,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-03T18:52:11.674000-07:00",
-                  "user_id_string": "6890124d6ec3d60ba5835b30",
+                  "datetime_string": "2025-09-10T11:28:02.996000-06:00",
+                  "user_id_string": "68c1b5241be49b995377012b",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 2554
+                  "accumulated_steps_int": 7
                 },
                 "non_structured_data_array": []
               }
@@ -555,8 +555,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "4783d38d-503a-46d1-9fc4-81c8a82e55f0",
-        "user_id": "689bb676973c6ce28195007b",
+        "client_uuid": "96b70ac3-6379-4c42-aa59-ba73f4a6c4cb",
+        "user_id": "68b5ffe1d206fa6dad398863",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -564,15 +564,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-11T21:36:31.141000-05:00",
-                  "user_id_string": "689bb676973c6ce28195007b",
+                  "datetime_string": "2025-09-01T15:19:43.994000-05:00",
+                  "user_id_string": "68b5ffe1d206fa6dad398863",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 2969
+                  "accumulated_steps_int": 350
                 },
                 "non_structured_data_array": []
               }
@@ -583,8 +583,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "b7ada972-7874-4c4a-a85b-e80258f5d4c6",
-        "user_id": "689ea5044d0d9ca1d02d397c",
+        "client_uuid": "45dd2f31-d345-44e4-9f27-f2d35029ae6a",
+        "user_id": "68ad0cd48f936843effc7155",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -592,15 +592,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-14T21:09:56.355000-06:00",
-                  "user_id_string": "689ea5044d0d9ca1d02d397c",
+                  "datetime_string": "2025-08-25T20:24:36.266000-05:00",
+                  "user_id_string": "68ad0cd48f936843effc7155",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 4193
+                  "accumulated_steps_int": 916
                 },
                 "non_structured_data_array": []
               }
@@ -611,8 +611,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "19d4b29c-1fc4-4616-9a10-05d0d28e9cad",
-        "user_id": "68927559f14f8116cf6e447a",
+        "client_uuid": "e622fcb3-39ee-4e51-b159-b370eb47b740",
+        "user_id": "68c997f3ede95504ff2abfe6",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -620,36 +620,8 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-05T17:19:20.495000-04:00",
-                  "user_id_string": "68927559f14f8116cf6e447a",
-                  "sources_of_data_array": [
-                    "Android"
-                  ],
-                  "was_the_user_under_physical_activity_bool": false
-                },
-                "steps": {
-                  "accumulated_steps_int": 211
-                },
-                "non_structured_data_array": []
-              }
-            ]
-          }
-        }
-      },
-      {
-        "version": 2,
-        "data_structure": "steps_event",
-        "client_uuid": "63df44da-ba60-4638-86f4-404d6b059c8f",
-        "user_id": "6896defceccc6ec408842021",
-        "document_version": 1,
-        "auto_detected": false,
-        "physical_health": {
-          "events": {
-            "steps_event": [
-              {
-                "metadata": {
-                  "datetime_string": "2025-08-09T00:39:07.438000-05:00",
-                  "user_id_string": "6896defceccc6ec408842021",
+                  "datetime_string": "2025-09-16T10:01:38.085000-07:00",
+                  "user_id_string": "68c997f3ede95504ff2abfe6",
                   "sources_of_data_array": [
                     "Android"
                   ],
@@ -667,8 +639,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "7b391859-0ad5-4f58-8b7b-256e672c9cac",
-        "user_id": "689d4f902ba45087c438dea2",
+        "client_uuid": "4cb8642a-33a6-4b49-bb11-554d781dbd36",
+        "user_id": "68d4772c00721b1c85fd875a",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -676,15 +648,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-13T20:53:02.647000-06:00",
-                  "user_id_string": "689d4f902ba45087c438dea2",
+                  "datetime_string": "2025-09-24T17:56:43.871000-05:00",
+                  "user_id_string": "68d4772c00721b1c85fd875a",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 976
+                  "accumulated_steps_int": 1223
                 },
                 "non_structured_data_array": []
               }
@@ -695,8 +667,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "8d987b8a-17bf-4b8a-835d-c1aa877a3eb8",
-        "user_id": "689b57d92b6dee87e8be0c75",
+        "client_uuid": "b02056e0-aefd-4117-883e-4f248cd8cce2",
+        "user_id": "68c18b1de57ca516d2df4815",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -704,15 +676,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-12T11:03:55.641000-04:00",
-                  "user_id_string": "689b57d92b6dee87e8be0c75",
+                  "datetime_string": "2025-09-10T09:28:43.999000-05:00",
+                  "user_id_string": "68c18b1de57ca516d2df4815",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 418
+                  "accumulated_steps_int": 878
                 },
                 "non_structured_data_array": []
               }
@@ -723,8 +695,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "967b042a-8d35-4e2e-af9d-1285dfe6a766",
-        "user_id": "68abe542ae08dc02eeb71367",
+        "client_uuid": "51b67367-4d1c-457d-ac1c-9258cfe1fe31",
+        "user_id": "68d1fe1b38c0cf8a113e9b63",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -732,15 +704,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-24T23:23:30.594000-05:00",
-                  "user_id_string": "68abe542ae08dc02eeb71367",
+                  "datetime_string": "2025-09-22T20:55:37.929000-05:00",
+                  "user_id_string": "68d1fe1b38c0cf8a113e9b63",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 2529
+                  "accumulated_steps_int": 5764
                 },
                 "non_structured_data_array": []
               }
@@ -751,8 +723,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "9fe7a402-0b6f-48d4-ba9e-1457131c3ca3",
-        "user_id": "68910e86096c72238badf1e8",
+        "client_uuid": "1d0b7c7d-e667-46c8-a130-ebc2124aefa2",
+        "user_id": "68c2038ce51d942f7b30fa26",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -760,15 +732,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-04T14:48:21.192000-05:00",
-                  "user_id_string": "68910e86096c72238badf1e8",
+                  "datetime_string": "2025-09-10T18:02:36.083000-05:00",
+                  "user_id_string": "68c2038ce51d942f7b30fa26",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 248
+                  "accumulated_steps_int": 578
                 },
                 "non_structured_data_array": []
               }
@@ -779,8 +751,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "d9a9c53d-5fde-4e84-86b4-a4fbf091e19d",
-        "user_id": "68a5cb588e7d9a46e4245662",
+        "client_uuid": "76b21aeb-5539-4b2a-ac2c-1ef7eb5d6106",
+        "user_id": "68b7a387d5d98983d0ed1dff",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -788,15 +760,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-20T08:19:19.348000-05:00",
-                  "user_id_string": "68a5cb588e7d9a46e4245662",
+                  "datetime_string": "2025-09-02T22:10:14.638000-04:00",
+                  "user_id_string": "68b7a387d5d98983d0ed1dff",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 1633
+                  "accumulated_steps_int": 45
                 },
                 "non_structured_data_array": []
               }
@@ -807,8 +779,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "2b11bf2b-8066-4c32-b0e2-f8d61bf1b18e",
-        "user_id": "68a30580ed17cbdfbf02eaf9",
+        "client_uuid": "aae3cec0-b039-4501-bd94-b4129973f341",
+        "user_id": "68b1263ccc78095583f35ffb",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -816,15 +788,15 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-18T20:50:38.057000+10:00",
-                  "user_id_string": "68a30580ed17cbdfbf02eaf9",
+                  "datetime_string": "2025-08-28T23:02:03.119000-05:00",
+                  "user_id_string": "68b1263ccc78095583f35ffb",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 349
+                  "accumulated_steps_int": 12266
                 },
                 "non_structured_data_array": []
               }
@@ -835,8 +807,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "91f3cf9f-26ef-43ab-83f4-d371d4190e41",
-        "user_id": "68adcf4b50c695cded06a782",
+        "client_uuid": "908f78c6-1856-4e8b-9d72-051548dbc25b",
+        "user_id": "68cead2e1ceed0594b942f69",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -844,15 +816,43 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-26T11:14:08.112000-04:00",
-                  "user_id_string": "68adcf4b50c695cded06a782",
+                  "datetime_string": "2025-09-20T08:33:32.727000-05:00",
+                  "user_id_string": "68cead2e1ceed0594b942f69",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 5
+                  "accumulated_steps_int": 926
+                },
+                "non_structured_data_array": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "version": 2,
+        "data_structure": "steps_event",
+        "client_uuid": "8be2c36a-f8a1-4e52-91d0-202d48949e89",
+        "user_id": "68c4cd8a732c11b2708b8c56",
+        "document_version": 1,
+        "auto_detected": false,
+        "physical_health": {
+          "events": {
+            "steps_event": [
+              {
+                "metadata": {
+                  "datetime_string": "2025-09-12T20:48:56.948000-05:00",
+                  "user_id_string": "68c4cd8a732c11b2708b8c56",
+                  "sources_of_data_array": [
+                    "Android"
+                  ],
+                  "was_the_user_under_physical_activity_bool": false
+                },
+                "steps": {
+                  "accumulated_steps_int": 4915
                 },
                 "non_structured_data_array": []
               }
