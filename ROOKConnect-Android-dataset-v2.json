@@ -1,7 +1,7 @@
 {
   "data_structure": "ROOKConnect_Android_dataset",
   "version": 2,
-  "created_at": "2025-09-25T23:45:06.658253Z",
+  "created_at": "2026-02-03T22:05:05.711568Z",
   "body_health": {
     "blood_glucose_events": [],
     "blood_pressure_events": [],
@@ -23,8 +23,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "c349b1ea-88cf-4d17-82a3-97da60b79c4a",
-        "user_id": "68d31c71027e3103f9e6a3c0",
+        "client_uuid": "b199bda7-986e-47be-b9e2-00f38e48781c",
+        "user_id": "6959adc5844be24f14b6947c",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -32,17 +32,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-23T17:17:19.061000-05:00",
-                  "user_id_string": "68d31c71027e3103f9e6a3c0",
+                  "datetime_string": "2026-01-03T19:01:09.406000-05:00",
+                  "user_id_string": "6959adc5844be24f14b6947c",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 5477
+                  "accumulated_steps_int": 963
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -51,8 +60,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "fb229640-9107-4a1b-9d66-61664ea4cd88",
-        "user_id": "68c84769c5984fd7b7970e5a",
+        "client_uuid": "986c0a4f-193c-4b01-8cdb-58ceab9a898c",
+        "user_id": "6959ae3c8fe86652ad03bb36",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -60,17 +69,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-15T12:05:42.171000-05:00",
-                  "user_id_string": "68c84769c5984fd7b7970e5a",
+                  "datetime_string": "2026-01-04T08:03:06.878000+08:00",
+                  "user_id_string": "6959ae3c8fe86652ad03bb36",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 10
+                  "accumulated_steps_int": 41
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -79,8 +97,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "fea9327b-1744-4320-9cc6-9ceadc60645c",
-        "user_id": "68d193be5e565b6fc8250fea",
+        "client_uuid": "721b3bac-c3f3-4222-92f8-5ee1919b8159",
+        "user_id": "6959afcf8f45d21339e081bd",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -88,17 +106,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-22T13:21:51.179000-05:00",
-                  "user_id_string": "68d193be5e565b6fc8250fea",
+                  "datetime_string": "2026-01-03T19:09:50.107000-05:00",
+                  "user_id_string": "6959afcf8f45d21339e081bd",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 1383
+                  "accumulated_steps_int": 1642
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -107,8 +134,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "7cefd18b-5252-4a56-9154-40969d20cdc7",
-        "user_id": "68bf3627a5096a16bc6d22f8",
+        "client_uuid": "b994fd86-9ea7-4e32-beba-b78f5e936f58",
+        "user_id": "6959b002844be24f14b6954c",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -116,17 +143,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-08T15:01:42.424000-05:00",
-                  "user_id_string": "68bf3627a5096a16bc6d22f8",
+                  "datetime_string": "2026-01-03T17:10:41.307000-07:00",
+                  "user_id_string": "6959b002844be24f14b6954c",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 472
+                  "accumulated_steps_int": 458
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -135,8 +171,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "649a91d1-bf98-401f-a75d-23b9a72ab6e1",
-        "user_id": "68b516ce5c0049f3b06a8217",
+        "client_uuid": "a7f229bb-495c-4590-8810-c2f778b97b6b",
+        "user_id": "6959b405b60c6469f07c9494",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -144,17 +180,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-31T22:45:18.825000-05:00",
-                  "user_id_string": "68b516ce5c0049f3b06a8217",
+                  "datetime_string": "2026-01-04T02:27:48.167000+02:00",
+                  "user_id_string": "6959b405b60c6469f07c9494",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 1
+                  "accumulated_steps_int": 2
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -163,8 +208,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "c77f05f3-78cd-4f51-9846-ff61cc013759",
-        "user_id": "68b50157e963e4a4c38c960e",
+        "client_uuid": "b8d832e9-66cd-42de-8974-2557398b8e98",
+        "user_id": "6959b47d1516a6fa5b3d7996",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -172,17 +217,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-31T21:13:42.991000-05:00",
-                  "user_id_string": "68b50157e963e4a4c38c960e",
+                  "datetime_string": "2026-01-03T18:29:50.100000-06:00",
+                  "user_id_string": "6959b47d1516a6fa5b3d7996",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 45
+                  "accumulated_steps_int": 7127
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -191,8 +245,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "cf663aac-346f-4961-a8dc-b98ba75d9536",
-        "user_id": "68bf8b6370246f79008cf938",
+        "client_uuid": "a9bc6a63-4aff-464c-9d2b-e1401de51365",
+        "user_id": "6959b53446d13c9dd85b283d",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -200,17 +254,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-08T21:05:23.394000-05:00",
-                  "user_id_string": "68bf8b6370246f79008cf938",
+                  "datetime_string": "2026-01-04T01:32:51.834000+01:00",
+                  "user_id_string": "6959b53446d13c9dd85b283d",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 4019
+                  "accumulated_steps_int": 29
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -219,8 +282,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "9f855351-923a-4d69-8691-a170b2bd0c5b",
-        "user_id": "68b1e3fcdb036ca803c18457",
+        "client_uuid": "059aa391-bd78-478d-92fd-e318d437cde5",
+        "user_id": "6959b582b60c6469f07c94d7",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -228,17 +291,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-29T12:31:39.057000-05:00",
-                  "user_id_string": "68b1e3fcdb036ca803c18457",
+                  "datetime_string": "2026-01-03T19:34:09.994000-05:00",
+                  "user_id_string": "6959b582b60c6469f07c94d7",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 648
+                  "accumulated_steps_int": 2583
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -247,8 +319,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "12eaed48-e98c-4450-9709-51ce0cada0fe",
-        "user_id": "68bb53a23b471d293e68eaa5",
+        "client_uuid": "6a2d28d2-6c45-4d06-afa8-81a0d610b77b",
+        "user_id": "6959b831b60c6469f07c9525",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -256,17 +328,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-05T16:18:25.918000-05:00",
-                  "user_id_string": "68bb53a23b471d293e68eaa5",
+                  "datetime_string": "2026-01-04T11:45:36.266000+11:00",
+                  "user_id_string": "6959b831b60c6469f07c9525",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 4231
+                  "accumulated_steps_int": 2167
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -275,8 +356,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "edef6ab2-bb6c-4fc8-8596-f05a0a8305e8",
-        "user_id": "68c1786ef851c12eddcd43f3",
+        "client_uuid": "02e7ccd4-65db-4475-af5c-36d2515d074b",
+        "user_id": "6959b9a61516a6fa5b3d7bcf",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -284,17 +365,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-10T08:09:01.530000-05:00",
-                  "user_id_string": "68c1786ef851c12eddcd43f3",
+                  "datetime_string": "2026-01-04T00:51:50.817000Z",
+                  "user_id_string": "6959b9a61516a6fa5b3d7bcf",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 557
+                  "accumulated_steps_int": 22
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -303,8 +393,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "532898d0-e691-42f2-92dd-2c4762b65664",
-        "user_id": "68cc035fab4778cfce2217f6",
+        "client_uuid": "595cfed1-6fd4-4513-87b7-b811dd95efb5",
+        "user_id": "6959bb111516a6fa5b3d7c5a",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -312,17 +402,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-18T08:04:32.500000-05:00",
-                  "user_id_string": "68cc035fab4778cfce2217f6",
+                  "datetime_string": "2026-01-03T19:57:54.427000-05:00",
+                  "user_id_string": "6959bb111516a6fa5b3d7c5a",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 13
+                  "accumulated_steps_int": 4207
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -331,8 +430,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "f2d6db92-c7ed-4b2b-8173-13f20be7bf91",
-        "user_id": "68d2d1233a58458337360c23",
+        "client_uuid": "d7fa67c2-d682-4d45-9681-dc995f282ad4",
+        "user_id": "6959bb4d1516a6fa5b3d7c74",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -340,17 +439,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-23T09:56:01.881000-07:00",
-                  "user_id_string": "68d2d1233a58458337360c23",
+                  "datetime_string": "2026-01-04T00:58:53.087000Z",
+                  "user_id_string": "6959bb4d1516a6fa5b3d7c74",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 284
+                  "accumulated_steps_int": 27
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -359,8 +467,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "d157895b-bead-4cf7-ad23-524a593be9fc",
-        "user_id": "68c343e40705194d18d46856",
+        "client_uuid": "e567edbf-d3c7-4b7b-a708-d34917fbf1a6",
+        "user_id": "6959bbe81516a6fa5b3d7c9c",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -368,17 +476,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-11T15:49:23.377000-06:00",
-                  "user_id_string": "68c343e40705194d18d46856",
+                  "datetime_string": "2026-01-03T20:01:27.525000-05:00",
+                  "user_id_string": "6959bbe81516a6fa5b3d7c9c",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 1495
+                  "accumulated_steps_int": 1017
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -387,8 +504,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "6ae20e5b-2379-431f-aa2c-381965658188",
-        "user_id": "68c05e74e1289dcbf09501b8",
+        "client_uuid": "b21addf9-6fb0-43c7-9aa7-7237f30d7755",
+        "user_id": "6959bc511516a6fa5b3d7cb7",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -396,17 +513,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-09T11:05:55.618000-06:00",
-                  "user_id_string": "68c05e74e1289dcbf09501b8",
+                  "datetime_string": "2026-01-04T09:03:12.255000+08:00",
+                  "user_id_string": "6959bc511516a6fa5b3d7cb7",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 32
+                  "accumulated_steps_int": 56
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -415,8 +541,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "fa15c423-0d72-4132-a583-3f4061acd326",
-        "user_id": "68c99f09f18456a5a70de409",
+        "client_uuid": "d4f816c9-e228-4e69-8811-14359d521074",
+        "user_id": "6959bd541516a6fa5b3d7d09",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -424,17 +550,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-16T11:31:53.316000-06:00",
-                  "user_id_string": "68c99f09f18456a5a70de409",
+                  "datetime_string": "2026-01-04T01:07:33.531000Z",
+                  "user_id_string": "6959bd541516a6fa5b3d7d09",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 792
+                  "accumulated_steps_int": 11
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -443,8 +578,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "cb710440-21d4-4d46-a57a-1556cac0667f",
-        "user_id": "68c8ca7ad1bd0203fdf9d904",
+        "client_uuid": "a600ba67-24de-4180-8b25-1acff9879c11",
+        "user_id": "6959bdec1516a6fa5b3d7d41",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -452,17 +587,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-15T21:24:58.052000-05:00",
-                  "user_id_string": "68c8ca7ad1bd0203fdf9d904",
+                  "datetime_string": "2026-01-03T20:10:03.748000-05:00",
+                  "user_id_string": "6959bdec1516a6fa5b3d7d41",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 4005
+                  "accumulated_steps_int": 1751
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -471,8 +615,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "7b544f36-9797-4fde-8b83-06843260207b",
-        "user_id": "68cb25c9ce12950e7c106873",
+        "client_uuid": "ff360426-1720-4692-b903-6d391d5be2bb",
+        "user_id": "6959c1379f53564d52470c0f",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -480,17 +624,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-17T16:19:04.292000-05:00",
-                  "user_id_string": "68cb25c9ce12950e7c106873",
+                  "datetime_string": "2026-01-03T18:24:07.418000-07:00",
+                  "user_id_string": "6959c1379f53564d52470c0f",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 1885
+                  "accumulated_steps_int": 458
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -499,8 +652,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "224d6634-1e3d-40c3-a692-78947d44400b",
-        "user_id": "68d0473f9da34f015173c12c",
+        "client_uuid": "f313ebd7-f5c6-47c4-a4b9-2410475e5695",
+        "user_id": "6959c36c1516a6fa5b3d7ef7",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -508,17 +661,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-21T13:43:10.317000-05:00",
-                  "user_id_string": "68d0473f9da34f015173c12c",
+                  "datetime_string": "2026-01-04T01:33:31.750000Z",
+                  "user_id_string": "6959c36c1516a6fa5b3d7ef7",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 3614
+                  "accumulated_steps_int": 17
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -527,8 +689,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "30b88a62-6ae9-420b-b1f2-ceff6280e43c",
-        "user_id": "68c1b5241be49b995377012b",
+        "client_uuid": "38a11ec5-91b7-431b-bac3-2ba98fd73823",
+        "user_id": "6959c3a4dc6a04bf11820c4f",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -536,17 +698,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-10T11:28:02.996000-06:00",
-                  "user_id_string": "68c1b5241be49b995377012b",
+                  "datetime_string": "2026-01-04T03:34:26.692000+02:00",
+                  "user_id_string": "6959c3a4dc6a04bf11820c4f",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 7
+                  "accumulated_steps_int": 2
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -555,8 +726,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "96b70ac3-6379-4c42-aa59-ba73f4a6c4cb",
-        "user_id": "68b5ffe1d206fa6dad398863",
+        "client_uuid": "35813166-3e63-42ae-86ba-8e9b8605b9f0",
+        "user_id": "6959c3c7dc6a04bf11820c66",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -564,17 +735,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-01T15:19:43.994000-05:00",
-                  "user_id_string": "68b5ffe1d206fa6dad398863",
+                  "datetime_string": "2026-01-03T19:35:03.451000-06:00",
+                  "user_id_string": "6959c3c7dc6a04bf11820c66",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 350
+                  "accumulated_steps_int": 7291
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -583,8 +763,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "45dd2f31-d345-44e4-9f27-f2d35029ae6a",
-        "user_id": "68ad0cd48f936843effc7155",
+        "client_uuid": "f99520da-8a15-4d10-9c27-be3b2903d080",
+        "user_id": "6959c3dadc6a04bf11820c79",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -592,17 +772,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-25T20:24:36.266000-05:00",
-                  "user_id_string": "68ad0cd48f936843effc7155",
+                  "datetime_string": "2026-01-03T20:35:21.258000-05:00",
+                  "user_id_string": "6959c3dadc6a04bf11820c79",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 916
+                  "accumulated_steps_int": 3066
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -611,8 +800,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "e622fcb3-39ee-4e51-b159-b370eb47b740",
-        "user_id": "68c997f3ede95504ff2abfe6",
+        "client_uuid": "7c4b8f5f-35a0-4fb0-87b3-67edc61a6ec5",
+        "user_id": "6959c4a5b60c6469f07c991e",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -620,17 +809,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-16T10:01:38.085000-07:00",
-                  "user_id_string": "68c997f3ede95504ff2abfe6",
+                  "datetime_string": "2026-01-04T01:38:44.377000Z",
+                  "user_id_string": "6959c4a5b60c6469f07c991e",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 3
+                  "accumulated_steps_int": 312
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -639,8 +837,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "4cb8642a-33a6-4b49-bb11-554d781dbd36",
-        "user_id": "68d4772c00721b1c85fd875a",
+        "client_uuid": "5f90fd17-1b38-431a-80fe-5ff3ad86ad4f",
+        "user_id": "6959c646dc6a04bf11820d7f",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -648,17 +846,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-24T17:56:43.871000-05:00",
-                  "user_id_string": "68d4772c00721b1c85fd875a",
+                  "datetime_string": "2026-01-04T12:45:41.508000+11:00",
+                  "user_id_string": "6959c646dc6a04bf11820d7f",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 1223
+                  "accumulated_steps_int": 2208
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -667,8 +874,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "b02056e0-aefd-4117-883e-4f248cd8cce2",
-        "user_id": "68c18b1de57ca516d2df4815",
+        "client_uuid": "58932bb5-a36e-40ba-8e2a-24ebfc0c594e",
+        "user_id": "6959c74fb60c6469f07c9a15",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -676,17 +883,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-10T09:28:43.999000-05:00",
-                  "user_id_string": "68c18b1de57ca516d2df4815",
+                  "datetime_string": "2026-01-04T02:50:06.778000+01:00",
+                  "user_id_string": "6959c74fb60c6469f07c9a15",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 878
+                  "accumulated_steps_int": 29
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -695,8 +911,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "51b67367-4d1c-457d-ac1c-9258cfe1fe31",
-        "user_id": "68d1fe1b38c0cf8a113e9b63",
+        "client_uuid": "3c11f846-fe90-4a88-a0bd-a59025040f0e",
+        "user_id": "6959c976b60c6469f07c9aeb",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -704,17 +920,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-22T20:55:37.929000-05:00",
-                  "user_id_string": "68d1fe1b38c0cf8a113e9b63",
+                  "datetime_string": "2026-01-03T20:59:19.475000-05:00",
+                  "user_id_string": "6959c976b60c6469f07c9aeb",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 5764
+                  "accumulated_steps_int": 4207
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -723,8 +948,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "1d0b7c7d-e667-46c8-a130-ebc2124aefa2",
-        "user_id": "68c2038ce51d942f7b30fa26",
+        "client_uuid": "abd016ab-a238-4eb9-8022-5b3429593930",
+        "user_id": "6959c9a3dc6a04bf11820e69",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -732,17 +957,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-10T18:02:36.083000-05:00",
-                  "user_id_string": "68c2038ce51d942f7b30fa26",
+                  "datetime_string": "2026-01-04T02:00:01.666000Z",
+                  "user_id_string": "6959c9a3dc6a04bf11820e69",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 578
+                  "accumulated_steps_int": 61
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -751,8 +985,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "76b21aeb-5539-4b2a-ac2c-1ef7eb5d6106",
-        "user_id": "68b7a387d5d98983d0ed1dff",
+        "client_uuid": "571608ec-f380-4709-91cc-55bcd1d4c532",
+        "user_id": "6959ca7e1516a6fa5b3d8101",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -760,17 +994,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-02T22:10:14.638000-04:00",
-                  "user_id_string": "68b7a387d5d98983d0ed1dff",
+                  "datetime_string": "2026-01-04T10:03:41.466000+08:00",
+                  "user_id_string": "6959ca7e1516a6fa5b3d8101",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 45
+                  "accumulated_steps_int": 56
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -779,8 +1022,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "aae3cec0-b039-4501-bd94-b4129973f341",
-        "user_id": "68b1263ccc78095583f35ffb",
+        "client_uuid": "1a6134b1-affc-407c-ae2d-d62ca99201e6",
+        "user_id": "6959cbd41516a6fa5b3d8160",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -788,17 +1031,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-08-28T23:02:03.119000-05:00",
-                  "user_id_string": "68b1263ccc78095583f35ffb",
+                  "datetime_string": "2026-01-04T02:09:26.196000Z",
+                  "user_id_string": "6959cbd41516a6fa5b3d8160",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 12266
+                  "accumulated_steps_int": 17
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -807,8 +1059,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "908f78c6-1856-4e8b-9d72-051548dbc25b",
-        "user_id": "68cead2e1ceed0594b942f69",
+        "client_uuid": "c7296a91-d36d-4b9e-9b17-e7905c49b5e9",
+        "user_id": "6959cc03b60c6469f07c9c0b",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -816,17 +1068,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-20T08:33:32.727000-05:00",
-                  "user_id_string": "68cead2e1ceed0594b942f69",
+                  "datetime_string": "2026-01-03T21:10:10.671000-05:00",
+                  "user_id_string": "6959cc03b60c6469f07c9c0b",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 926
+                  "accumulated_steps_int": 1863
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -835,8 +1096,8 @@
       {
         "version": 2,
         "data_structure": "steps_event",
-        "client_uuid": "8be2c36a-f8a1-4e52-91d0-202d48949e89",
-        "user_id": "68c4cd8a732c11b2708b8c56",
+        "client_uuid": "c411b593-7a8d-433d-b069-1d8d45eb71a7",
+        "user_id": "6959cd5843b0392f61de5404",
         "document_version": 1,
         "auto_detected": false,
         "physical_health": {
@@ -844,17 +1105,26 @@
             "steps_event": [
               {
                 "metadata": {
-                  "datetime_string": "2025-09-12T20:48:56.948000-05:00",
-                  "user_id_string": "68c4cd8a732c11b2708b8c56",
+                  "datetime_string": "2026-01-04T02:15:53.288000Z",
+                  "user_id_string": "6959cd5843b0392f61de5404",
                   "sources_of_data_array": [
                     "Android"
                   ],
                   "was_the_user_under_physical_activity_bool": false
                 },
                 "steps": {
-                  "accumulated_steps_int": 4915
+                  "accumulated_steps_int": 99
                 },
-                "non_structured_data_array": []
+                "non_structured_data_array": [
+                  {
+                    "source_of_data_string": "Android",
+                    "sources": [
+                      {
+                        "bundleId": "android.hardware.Sensor.Step.Detector"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
